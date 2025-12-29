@@ -1,0 +1,223 @@
+// /* FULL PAGE BACKGROUND */
+// .page-wrapper {
+//     background-color: #f3f4f6; // resume.com jaisa light gray
+//     // min-height: 100vh;
+// }
+
+// .container {
+//     max-width: 1200px;
+//     margin: auto;
+//     padding: 24px;
+// }
+
+// /* Breadcrumb */
+// .breadcrumb {
+//     font-size: 14px;
+//     margin-bottom: 30px;
+//     color: #666;
+
+//     a {
+//         color: #1e4fd8;
+//         cursor: pointer;
+//         text-decoration: none;
+//     }
+
+//     span {
+//         margin: 0 6px;
+//     }
+// }
+
+// /* Layout */
+// .layout {
+//     display: grid;
+//     grid-template-columns: 1fr 420px;
+//     gap: 60px;
+//     align-items: start;
+// }
+
+// /* LEFT */
+// .left {
+//     h1 {
+//         font-size: 42px;
+//         font-weight: 700;
+//         display: flex;
+//         align-items: center;
+//         gap: 10px;
+//     }
+
+//     .badge {
+//         background: #f5b400;
+//         color: white;
+//         font-size: 18px;
+//         padding: 6px 8px;
+//         border-radius: 50%;
+//     }
+
+//     .description {
+//         font-size: 18px;
+//         line-height: 1.6;
+//         margin: 20px 0 30px;
+//         color: #444;
+//     }
+
+//     .cta-btn {
+//         background: #1e4fd8;
+//         color: #fff;
+//         border: none;
+//         padding: 14px 28px;
+//         font-size: 16px;
+//         border-radius: 8px;
+//         font-weight: 600;
+//         cursor: pointer;
+//     }
+// }
+
+// /* RIGHT */
+// .right {
+//     position: sticky;
+//     top: 20px;
+// }
+
+// /* Resume Card */
+// .resume-card {
+//     background: #fff;
+//     border-radius: 12px;
+//     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+//     padding: 24px;
+//     font-size: 13px;
+// }
+
+// .resume-header {
+//     display: flex;
+//     gap: 14px;
+//     margin-bottom: 16px;
+
+//     .line {
+//         width: 4px;
+//         background: #000;
+//     }
+
+//     h3 {
+//         margin: 0;
+//         font-size: 18px;
+//     }
+
+//     p {
+//         margin: 2px 0;
+//     }
+// }
+
+// .resume-section {
+//     margin-top: 16px;
+
+//     h4 {
+//         font-size: 15px;
+//         margin-bottom: 6px;
+//     }
+
+//     ul {
+//         padding-left: 18px;
+
+//         li {
+//             margin-bottom: 6px;
+//         }
+//     }
+
+//     .summary {
+//         line-height: 1.5;
+//     }
+// }
+
+// /* Responsive */
+// @media (max-width: 992px) {
+//     .layout {
+//         grid-template-columns: 1fr;
+//     }
+
+//     .right {
+//         position: relative;
+//     }
+// }
+
+// .page-layout {
+//     display: grid;
+//     grid-template-columns: 1fr 260px;
+//     gap: 60px;
+// }
+
+// /* LEFT */
+// .left-content {
+//     .spy-section {
+//         padding: 60px 0;
+//         border-bottom: 1px solid #e5e7eb;
+//     }
+// }
+
+// /* RIGHT SIDEBAR */
+// .right-sidebar {
+//     position: sticky;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     align-self: flex-start;
+
+//     width: 260px;
+//     background: transparent;
+
+//     h4 {
+//         font-size: 14px;
+//         letter-spacing: 1px;
+//         margin-bottom: 16px;
+//     }
+
+//     ul {
+//         list-style: none;
+//         padding: 0;
+//         margin-bottom: 30px;
+
+//         li {
+//             padding: 10px 12px;
+//             font-size: 15px;
+//             color: #6b7280;
+//             cursor: pointer;
+//             border-left: 3px solid transparent;
+
+//             &.active {
+//                 color: #1e4fd8;
+//                 font-weight: 600;
+//                 border-left-color: #1e4fd8;
+//                 background: #f5f7ff;
+//             }
+//         }
+//     }
+
+//     .badge {
+//         background: #1e4fd8;
+//         color: white;
+//         font-size: 11px;
+//         padding: 2px 6px;
+//         border-radius: 6px;
+//         margin-left: 6px;
+//     }
+
+//     .cta {
+//         width: 100%;
+//         background: #1e4fd8;
+//         color: #fff;
+//         padding: 12px;
+//         border-radius: 8px;
+//         border: none;
+//         font-weight: 600;
+//     }
+// }
+
+// /* Responsive */
+// @media (max-width: 992px) {
+//     .page-layout {
+//         grid-template-columns: 1fr;
+//     }
+
+//     .right-sidebar {
+//         position: relative;
+//         top: auto;
+//     }
+// }

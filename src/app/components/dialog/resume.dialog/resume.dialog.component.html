@@ -1,0 +1,343 @@
+<div class="contact-card">
+
+    <!-- HEADER -->
+    <div class="card-header">
+        <button class="arrow-btn" (click)="prev()" [disabled]="step === 0">‹</button>
+
+        <h2>
+            {{ step === 0 ? 'Contact Info' :
+            step === 1 ? 'Education' :
+            'Skills' }}
+        </h2>
+
+        <button class="arrow-btn" (click)="next()" [disabled]="step === 2">›</button>
+        <button class="close-btn" (click)="close()">✕</button>
+    </div>
+
+    <!-- BODY -->
+    <div class="card-body">
+
+        <!-- CONTACT -->
+        @if(step === 0){
+        <ng-container>
+            <div class="contact-card">
+
+                <!-- HEADER -->
+                <div class="card-header">
+                    <h2>Contact Info</h2>
+                    <button class="close-btn" (click)="close()">✕</button>
+                </div>
+
+                <!-- BODY -->
+                <div class="card-body">
+
+                    <!-- LEFT FORM -->
+                    <div class="card-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>First name</label>
+                                <input type="text" value="Jenny">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Last name</label>
+                                <input type="text" value="Appleseed">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" value="Jenny@resume.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Phone number</label>
+                                <input type="text" value="(555)123-4567">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" placeholder="City, State">
+                        </div>
+                    </div>
+
+                    <!-- RIGHT TIPS -->
+                    <div class="card-tips">
+                        <h3>Tips</h3>
+                        <p>
+                            The difference is in the details. More than 80% of employers think
+                            that a phone number must always be present on a resume.
+                        </p>
+
+                        <p>
+                            Employers usually want to know the city and state you currently live in.
+                        </p>
+
+                        <small>
+                            *Indeed survey conducted with Lucid, N=2661 employers among 10 industries.
+                        </small>
+                    </div>
+
+                </div>
+
+                <!-- FOOTER -->
+                <div class="card-footer">
+                    <button class="btn-outline" (click)="close()">Cancel</button>
+                    <button class="btn-primary">Save</button>
+                </div>
+
+            </div>
+        </ng-container>
+        }
+
+
+        <!-- EDUCATION -->
+        @if(step === 1){
+        <ng-container>
+            <div class="card-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>School</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Field of study</label>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-tips">
+                <h3>Tips</h3>
+                <p>List your most recent education first.</p>
+            </div>
+        </ng-container>
+        }
+
+        <!-- SKILLS -->
+        @if(step === 2){
+        <ng-container>
+            <div class="card-form">
+                <div class="form-group">
+                    <label>Skills</label>
+                    <input type="text" placeholder="Add skill">
+                </div>
+            </div>
+
+            <div class="card-tips">
+                <h3>Examples</h3>
+                <p>Communication, Teamwork, Leadership</p>
+            </div>
+        </ng-container>
+        }
+        <!-- Expereance -->
+        @if(step === 3){
+        <ng-container class="">
+            <div class="experience-card">
+
+                <!-- HEADER -->
+                <div class="card-header">
+                    <h2>Experience</h2>
+                    <button class="close-btn">✕</button>
+                </div>
+
+                <!-- BODY -->
+                <div class="card-body">
+
+                    <!-- LEFT FORM -->
+                    <div class="card-form">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Employer</label>
+                                <input type="text" value="Wood Stork">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Role or job title</label>
+                                <input type="text" value="Carpenter">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Start date</label>
+                                <input type="text" value="08/2020">
+                            </div>
+
+                            <div class="form-group">
+                                <label>End date</label>
+                                <input type="text" value="Present">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Location</label>
+                                <input type="text" value="Houston, Texas">
+                            </div>
+                        </div>
+
+                        <div class="editor-section">
+                            <div class="editor-header">
+                                <label>Work description at Wood Stork</label>
+                                <button class="ai-btn">✨ AI Writer</button>
+                            </div>
+
+                            <!-- TOOLBAR -->
+                            <div class="editor-toolbar">
+                                <button>B</button>
+                                <button>I</button>
+                                <button>•</button>
+                                <button>≡</button>
+                                <button>↺</button>
+                                <button>↻</button>
+                                <button>🔗</button>
+                                <button>A</button>
+                            </div>
+
+                            <!-- TEXTAREA -->
+                            <textarea rows="6">
+• Installed new home theater systems, kitchen appliances and furniture
+• Extensive knowledge of building codes, safety and renovation procedures
+• Improved customer service by developing a new level of professionalism
+• Demonstrated exceptional project planning ability
+        </textarea>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT SIDE (TABS) -->
+                    <div class="card-side">
+
+                        <div class="side-tabs">
+                            <span class="active">Examples</span>
+                            <span>Tips</span>
+                        </div>
+
+                        <div class="search-box">
+                            <input type="text" placeholder="Carpenter">
+                            <span class="search-icon">🔍</span>
+                        </div>
+
+                        <p class="muted">
+                            No results found. Try different job title or use common phrases below.
+                        </p>
+
+                        <div class="example-item">
+                            <span class="add">＋</span>
+                            <p>
+                                Created and maintained an inpatient care log that noted patient
+                                medical history, medications, and diagnoses
+                            </p>
+                        </div>
+
+                        <div class="example-item">
+                            <span class="add">＋</span>
+                            <p>
+                                Utilized hospital systems to monitor and report on individual patient care
+                            </p>
+                        </div>
+
+                        <div class="example-item">
+                            <span class="add">＋</span>
+                            <p>
+                                Recruited paid staff members to assist with event management
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- FOOTER -->
+                <div class="card-footer">
+                    <button class="add-btn">＋ Add Additional</button>
+
+                    <div class="footer-actions">
+                        <button class="btn-outline">Cancel</button>
+                        <button class="btn-primary">Save</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </ng-container>
+        }
+
+
+        <!-- summary -->
+        @if(step === 4){
+        <ng-container>
+            <div class="summary-card">
+
+                <!-- HEADER -->
+                <div class="card-header">
+                    <h2>Summary</h2>
+                    <button class="close-btn" (click)="close()">✕</button>
+                </div>
+
+                <!-- BODY -->
+                <div class="card-body">
+
+                    <!-- LEFT -->
+                    <div class="editor-area">
+                        <h3>How can you describe yourself?</h3>
+
+                        <div class="toolbar">
+                            <button>B</button>
+                            <button>I</button>
+                            <button>≡</button>
+                            <button>↺</button>
+                            <button>↻</button>
+                            <button>🔗</button>
+                            <button class="active">A</button>
+                        </div>
+
+                        <textarea rows="10">
+Hardworking carpenter with 4 years of experience working in a team, completing extensive repairs and renovations to homes, businesses and public buildings.
+      </textarea>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="side-panel">
+                        <div class="tabs">
+                            <span class="active">Tips</span>
+                            <span>Examples</span>
+                        </div>
+
+                        <p>
+                            A summation of relevant professional abilities, accomplishments, and
+                            personal qualities that make you the right candidate for the job.
+                        </p>
+
+                        <ul>
+                            <li>The Summary should appear at the beginning of your resume.</li>
+                            <li>Focus on the most relevant qualifications.</li>
+                            <li>Tailor it to the position you're applying for.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- FOOTER -->
+                <div class="card-footer">
+                    <button class="btn-outline" (click)="close()">Cancel</button>
+                    <button class="btn-primary">Save</button>
+                </div>
+
+            </div>
+
+        </ng-container>
+
+        }
+    </div>
+
+    <!-- FOOTER -->
+    <div class="card-footer">
+        <button class="btn-outline" (click)="close()">Cancel</button>
+        <button class="btn-primary">Save</button>
+    </div>
+
+</div>

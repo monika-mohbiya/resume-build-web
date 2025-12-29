@@ -1,0 +1,84 @@
+<div class=" container-fluid py-4">
+    <div class="card shadow-lg border-0 p-4">
+
+        <!-- 1️⃣ NAME -->
+        <div class="mb-3">
+            <h3 class="fw-bold mb-1">
+                <span class="" [ngStyle]="{'color': selectColor}">{{ resumeData.section?.Contact?.Name }}</span>
+            </h3>
+
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Contact?.Email }} ·
+                {{ resumeData.section?.Contact?.Mobile }}
+            </p>
+
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Contact?.Address }}
+            </p>
+        </div>
+
+        <!-- 2️⃣ SUMMARY -->
+        @if (isSectionEnabled('summary')) {
+        <div class="mb-3">
+            <p class="small mb-0">
+                {{ resumeData.section?.Summary }}
+            </p>
+        </div>
+        }
+
+        <!-- 3️⃣ SKILLS (INLINE, NO HEADING) -->
+        @if (isSectionEnabled('skills')) {
+        <div class="mb-4">
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Skills }}
+            </p>
+        </div>
+        }
+
+        <!-- 4️⃣ EXPERIENCE -->
+        @if (isSectionEnabled('experience') && resumeData?.section?.Experience?.length) {
+
+        @for (job of resumeData.section.Experience; track job) {
+        <div class="mb-4">
+
+            <!-- Job Title + Location -->
+            <div class="d-flex justify-content-between">
+                <p class="fw-semibold mb-0">
+                    {{ job.RoleAndJobTitle }}
+                </p>
+                <p class="small text-muted mb-0">
+                    {{ job.Location }}
+                </p>
+            </div>
+
+            <!-- Company + Dates -->
+            <p class="small text-muted mb-1">
+                {{ job.Employer }} · {{ job.StartDate }} – {{ job.EndDate || 'Present' }}
+            </p>
+
+            <!-- Points -->
+            <ul class="small ps-3 mb-0">
+                @for (point of job.Description.split('. '); track point) {
+                <li>{{ point }}</li>
+                }
+            </ul>
+
+        </div>
+        }
+
+        }
+
+        @if (isSectionEnabled('education')) {
+        @if(resumeData?.section?.Education){
+        <div class="mb-3">
+            <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Education</h4>
+            <p class="small mb-0 fw-semibold">{{ resumeData.section.Education.FieldOfStudy }}</p>
+            <p class="text-muted small mb-0">
+                {{ resumeData.section.Education.university }} · {{ resumeData.section.Education.Location }}
+            </p>
+        </div>
+        }
+        }
+
+    </div>
+</div>

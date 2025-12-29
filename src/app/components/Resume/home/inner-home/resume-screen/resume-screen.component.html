@@ -1,0 +1,229 @@
+<div class="resume-page">
+
+    <!-- ================= TOP ACTIONS ================= -->
+    <div class="top-actions">
+        <div class="left-actions">
+
+            <!-- Templates -->
+            <div class="hover-wrapper" (mouseenter)="showTemplatePopup = true" (mouseleave)="showTemplatePopup = false">
+
+                <button class="btn-outline">⬛⬜ Templates</button>
+
+                @if(showTemplatePopup){
+                <div class="template-popup">
+                    <div class="color-row">
+                        <span class="color-dot black" (click)="changeTheme('black')"></span>
+                        <span class="color-dot brown" (click)="changeTheme('brown')"></span>
+                        <span class="color-dot green" (click)="changeTheme('green')"></span>
+                        <span class="color-dot blue" (click)="changeTheme('blue')"></span>
+                        <span class="color-dot purple" (click)="changeTheme('purple')"></span>
+                        <span class="color-dot pink" (click)="changeTheme('pink')"></span>
+                    </div>
+                </div>
+                }
+            </div>
+
+            <button class="btn-outline" (click)="openMngSec()">Manage Sections</button>
+        </div>
+
+        <button class="btn-primary" (click)="exportPDF()">⬇ Download Resume</button>
+    </div>
+
+    <!-- ================= RESUME PREVIEW ================= -->
+
+
+    <!-- <div class="resume-preview-card">
+        @if (selectedComponent && resumeData) {
+        <ng-container [ngComponentOutlet]="selectedComponent" [ngComponentOutletInputs]="{
+        resumeData: resumeData,
+        templateKey: resumeData.templateKey,
+           selectColor: selectedTemplateColor,
+           sections: sections
+      }">
+        </ng-container>
+        }
+
+       
+        <div class="resume-extra-sections">
+
+           
+            @for(section of sections; track section.key){
+            @if(section.enabled && section.isCustom){
+            <div class="mb-3">
+                <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectedTemplateColor}">
+                    {{ section.label }}
+                </h4>
+                <p class="small mb-0">
+                    {{ section.description }}
+                </p>
+            </div>
+            <hr class="my-3">
+            }
+            }
+
+
+        </div>
+    </div> -->
+
+    <app-resume-preview [selectedComponent]="selectedComponent" [resumeData]="resumeData" [sections]="sections"
+        [selectColor]="selectedTemplateColor">
+    </app-resume-preview>
+
+
+    <!-- <div class="resume-preview-card">
+
+         
+        <div class="resume-header">
+            <div class="left-bar" [ngStyle]="{'background': selectedTemplateColor}"></div>
+            <div>
+                <h1 [ngStyle]="{'color': selectedTemplateColor}">{{resumeData.name}}</h1>
+                <p>{{ resumeData.section.Contact.Email }} ·
+                    {{ resumeData.section.Contact.Mobile }} ·
+                    {{ resumeData.section.Contact.Address }}</p>
+            </div>
+            <button class="edit-btn" (click)="openDialog(0)">✏️</button>
+        </div>
+
+        @if(isSectionEnabled('summary')){ <section class="resume-section">
+            <h2 [ngStyle]="{'color': selectedTemplateColor}">Summary</h2>
+            <p> {{resumeData.section.Summary }} </p> <button class=" edit-btn section-edit"
+                (click)="openDialog(1)">✏️</button>
+        </section> }
+
+          @if(isSectionEnabled('skills')){ <section class="resume-section">
+            <h2 [ngStyle]="{'color': selectedTemplateColor}">Skills</h2>
+            
+            <p>{{ resumeData.section.Skills }}</p>
+            
+            <button class="edit-btn section-edit" (click)="openDialog(2)">✏️</button>
+        </section> }
+
+       
+        @if(isSectionEnabled('experience')){
+        <section class="resume-section">
+            <h2 [ngStyle]="{'color': selectedTemplateColor}">Experience</h2> 
+            @for (exp of resumeData.section.Experience; track exp; let i = $index) {
+            <div class="job">
+                <div class="job-toolbar"> <button class="icon-btn">✏️</button> <button class="icon-btn">⬆️</button>
+                    <button class="icon-btn">⬇️</button> <button class="icon-btn">🗑️</button>
+                </div>
+                <h3>{{ exp.RoleAndJobTitle }}</h3>
+                <p class="job-meta">{{ exp.Employer }}</p>
+                <p class="job-date">{{ exp.StartDate }}-{{ exp.EndDate }}</p>
+                <p>{{ exp.Description }}</p>
+               
+            </div>
+            }
+
+        </section>
+        }
+
+        
+        @if(isSectionEnabled('education')){
+        <section class="resume-section">
+            <h2 [ngStyle]="{'color': selectedTemplateColor}">Education</h2>
+           
+            <div class="job">
+                <h3>{{ resumeData.section.Education.FieldOfStudy }}</h3>
+                <p class="job-meta">
+                    {{ resumeData.section.Education.university }} · {{ resumeData.section.Education.GraduationDate }}
+                </p>
+            </div>
+           
+            <button class="edit-btn section-edit" (click)="openDialog(3)">✏️</button>
+        </section>
+        }
+        @if (resumeData.section.languages?.length) {
+        <section class="resume-section">
+            <h2 [ngStyle]="{'color': selectedTemplateColor}">Languages</h2>
+
+            <ul>
+                @for (lang of resumeData.section.languages; track lang.name) {
+                <li>{{ lang.name }} – {{ lang.level }}</li>
+                }
+            </ul>
+        </section>
+        }
+       
+        @for(section of sections; track section.key){
+        @if(section.isCustom && section.enabled){
+        <section class="resume-section">
+            <h2 [ngStyle]="{'color': selectedTemplateColor}">
+                {{ section.label }}
+            </h2>
+
+            <p>{{ section.description }}</p>
+
+            <button class="edit-btn" (click)="editCustomSection(section)">✏️</button>
+        </section>
+        }
+        }
+
+    </div> -->
+
+
+</div>
+
+
+
+
+
+
+
+
+<ng-template #manageSectionsTpl>
+    <div class="popup-overlay">
+        <div class="manage-panel">
+            <div class="panel-header">
+                <h3>Manage Sections</h3>
+                <button (click)="closeManage()">✕</button>
+            </div>
+
+            <div class="section-list">
+                @for(section of sections; track section.key){
+                <div class="section-item">
+                    <span>{{ section.label }}</span>
+                    <input type="checkbox" [(ngModel)]="section.enabled" />
+                </div>
+                }
+            </div>
+
+            <button class="add-btn" (click)="openNamePopup()">
+                ➕ Add a Custom Section
+            </button>
+        </div>
+    </div>
+</ng-template>
+
+
+@if(showNamePopup){
+<div class="popup-overlay">
+    <div class="popup-box">
+        <h3>Name your new section</h3>
+        <input [(ngModel)]="newSectionName" placeholder="Enter section name" />
+
+        <div class="actions">
+            <button (click)="closeNamePopup()">Dismiss</button>
+            <button (click)="saveSectionName()">Save</button>
+        </div>
+    </div>
+</div>
+}
+
+@if(showEditorPopup){
+<div class="popup-overlay">
+    <div class="popup-large">
+        <div class="header">
+            <h3>{{ activeSection?.label }}</h3>
+            <button (click)="closeEditorPopup()">✕</button>
+        </div>
+
+        <textarea rows="8" [(ngModel)]="activeSection!.description" placeholder="Start typing..."></textarea>
+
+        <div class="actions">
+            <button (click)="closeEditorPopup()">Cancel</button>
+            <button (click)="saveCustomSection()">Save</button>
+        </div>
+    </div>
+</div>
+}

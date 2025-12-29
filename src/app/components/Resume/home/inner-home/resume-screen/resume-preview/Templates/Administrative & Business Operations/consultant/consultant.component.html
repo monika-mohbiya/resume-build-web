@@ -1,0 +1,89 @@
+<div class="container-fluid py-4">
+    <!-- RESUME CARD -->
+    <div class="card shadow-lg border-0 p-4">
+
+        <!-- HEADER -->
+        <div class="border-bottom pb-3 mb-3">
+            <h2 class="fw-bold mb-1">
+                {{ resumeData.section?.Contact?.Name }}
+            </h2>
+
+            <p class="text-muted small mb-0">
+                {{ resumeData.section?.Contact?.Mobile }} |
+                {{ resumeData.section?.Contact?.Email }} |
+                {{ resumeData.section?.Contact?.Address }}
+            </p>
+        </div>
+
+        <!-- SUMMARY -->
+        @if (isSectionEnabled('summary')) {
+        <div class="mb-4">
+            <h6 class="fw-semibold text-uppercase text-secondary border-bottom pb-1 mb-2">
+                Summary
+            </h6>
+            <p class="small mb-0">
+                {{ resumeData.section.Summary }}
+            </p>
+        </div>
+        }
+        <!-- SKILLS -->
+        @if (isSectionEnabled('skills')) {
+        <div class="mb-3">
+            <p class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Skills</p>
+            <p class="small mb-0">
+                {{resumeData.section.Skills}}
+            </p>
+        </div>
+        <hr class="my-3">
+        }
+        <!-- EXPERIENCE -->
+        @if (isSectionEnabled('experience') && resumeData?.section?.Experience?.length) {
+        <div class="mb-4">
+            <h6 class="fw-semibold text-uppercase text-secondary border-bottom pb-1 mb-3">
+                Experience
+            </h6>
+
+            @for(job of resumeData.section.Experience; track job) {
+            <div class="mb-3">
+                <div class="d-flex justify-content-between flex-wrap">
+                    <h6 class="fw-semibold mb-0">
+                        {{ job.RoleAndJobTitle }}
+                    </h6>
+                    <span class="small text-muted">
+                        {{ job.StartDate }} – {{ job.EndDate || 'Present' }}
+                    </span>
+                </div>
+
+                <div class="small text-muted mb-1">
+                    {{ job.Employer }} · {{ job.Location }}
+                </div>
+
+                <ul class="small ps-3 mb-0">
+                    @for(point of job.Description.split('. '); track point) {
+                    <li>{{ point }}</li>
+                    }
+                </ul>
+            </div>
+            }
+        </div>
+        }
+
+        <!-- EDUCATION -->
+        @if (isSectionEnabled('education') && resumeData?.section?.Education) {
+        <div>
+            <h6 class="fw-semibold text-uppercase text-secondary border-bottom pb-1 mb-2">
+                Education
+            </h6>
+            <p class="fw-semibold small mb-0">
+                {{ resumeData.section.Education.FieldOfStudy }}
+            </p>
+            <p class="text-muted small mb-0">
+                {{ resumeData.section.Education.university }} ·
+                {{ resumeData.section.Education.Location }}
+            </p>
+        </div>
+        }
+
+    </div>
+    <!-- /RESUME CARD -->
+</div>

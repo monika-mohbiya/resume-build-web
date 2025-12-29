@@ -1,0 +1,172 @@
+.heading-title {
+    margin: 0 auto;
+    max-width: 52.5rem;
+
+    h1 {
+        font-weight: 700;
+    }
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.paper-stack {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.paper {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-1 {
+    transform: translate(6px, 0);
+}
+
+.page-2 {
+    transform: translate(4px, 4px) scale(0.98);
+    opacity: 0.85;
+}
+
+.page-3 {
+    transform: translate(2px, 7px) scale(0.96);
+    opacity: 0.7;
+}
+
+.owl-dots {
+    display: flex !important;
+    justify-content: center;
+}
+
+.owl-dot.active {
+    background: black;
+}
+
+
+
+.carousel-wrapper {
+    // max-width: 1200px;
+
+    // margin: 0 auto;
+    // margin: 5rem auto 4rem;
+    max-width: 90rem;
+    // text-align: center;
+}
+
+owl-carousel-o {
+    width: 100%;
+    display: block;
+}
+
+.owl-stage-outer {
+    overflow: hidden !important;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cards per row */
+    gap: 20px;
+}
+
+.cardbox {
+    width: 100%;
+    // text-align: center;
+    background-color: #f3f2f1;
+    // padding: 16px;
+    padding: 1.75rem 1rem 0;
+    border-radius: 12px;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    width: 300px !important;
+
+    min-height: 350px !important;
+    max-height: 350px !important;
+    height: 350px !important;
+}
+
+/* ❌ NEVER USE flex-wrap on owl-item */
+.owl-item {
+    display: block !important;
+    justify-content: center;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    width: 300px !important;
+    min-height: 350px !important;
+    max-height: 350px !important;
+    height: 350px !important;
+}
+
+.slide-wrapper {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.resume-card-short {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.resume-thumb-frame {
+    width: 100%;
+    height: 300px;
+    /* thumbnail height */
+    overflow: hidden;
+    /* crop extra pages */
+    border-radius: 8px;
+    // border: 1px solid #e5e7eb;
+    // background: #f9fafb;
+    position: relative;
+    justify-content: center !important;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+}
+
+.resume-preview-card {
+    width: 1500px;
+    // position: relative;
+    // left: -20px !important;
+    /* A4 width */
+}
+
+.resume-thumb-frame app-resume-preview {
+    display: block;
+    width: 794px;
+    transform: scale(0.32);
+    transform-origin: top left;
+    position: relative;
+    left: 8px !important;
+}
+
+.resume-preview-card {
+    background: white;
+    min-height: 1123px;
+    /* A4 height */
+    padding: 0px !important;
+    margin: 0px !important;
+
+    box-sizing: border-box;
+    text-align: left !important;
+}
+
+.section {
+    break-inside: avoid;
+}

@@ -1,0 +1,19 @@
+import { CommonModule } from '@angular/common';
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-restaurant-manager',
+  imports: [CommonModule],
+  templateUrl: './restaurant-manager.component.html',
+  styleUrl: './restaurant-manager.component.scss'
+})
+export class RestaurantManagerComponent {
+  @Input() resumeData: any;
+  @Input() templateKey!: string;
+  @Input() selectColor!: string;
+  @Input() sections: any[] = [];
+
+  isSectionEnabled(sectionName: string): boolean {
+    return !!this.sections?.find(sec => sec.key === sectionName)?.enabled;
+  }
+}

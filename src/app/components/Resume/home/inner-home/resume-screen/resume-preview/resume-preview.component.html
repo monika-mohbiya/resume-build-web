@@ -1,0 +1,36 @@
+<div class="resume-preview-card" #resumeRoot>
+
+    @if (selectedComponent && resumeData) {
+    <ng-container [ngComponentOutlet]="selectedComponent" [ngComponentOutletInputs]="{
+        resumeData: resumeData,
+        templateKey: resumeData.templateKey,
+        selectColor: selectColor,
+        sections: sections
+      }">
+    </ng-container>
+    } @else {
+    <p>⚠️ Preview data missing</p>
+    }
+
+    <!-- CUSTOM / EXTRA SECTIONS -->
+    <div class="resume-extra-sections">
+
+        @for(section of sections; track section.key){
+        @if(section.enabled && section.isCustom){
+        <div class="mb-3">
+            <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">
+                {{ section.label }}
+            </h4>
+
+            <p class="small mb-0">
+                {{ section.description }}
+            </p>
+        </div>
+
+        <hr class="my-3">
+        }
+        }
+
+    </div>
+
+</div>

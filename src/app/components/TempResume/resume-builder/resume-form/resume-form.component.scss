@@ -1,0 +1,186 @@
+.resume-container {
+    padding: 20px;
+}
+
+.section-card {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.row-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.row-box>div {
+    flex: 1;
+}
+
+.delete-btn {
+    margin-top: 5px;
+}
+
+.exp-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.empty-text {
+    padding: 10px;
+    color: #777;
+    font-style: italic;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* left inputs + right delete icon */
+    gap: 10px;
+}
+
+.skill-row .grid-2 {
+    flex: 1;
+    /* left side ko full space mile */
+}
+
+.delete-btn {
+    align-self: auto;
+    /* icon vertically center rahe */
+    margin-top: 0;
+    /* remove extra margin */
+    flex-shrink: 0;
+    /* squeeze na ho */
+}
+
+.delete-btn3 {
+    align-self: self-start !important;
+}
+
+.delete-btn2 {
+    position: absolute !important;
+    top: 25px !important;
+    right: 0 !important;
+}
+
+.language-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+/* Make inputs take equal space */
+.language-row mat-form-field {
+    flex: 1;
+}
+
+.basic-info {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    /* profile + form */
+    gap: 20px;
+}
+
+.profile-box {
+    width: 150px;
+    height: 180px;
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Make full width inputs */
+.full-width {
+    width: 100%;
+}
+
+.upload-btn {
+    color: #3f51b5;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Responsive for mobile */
+@media (max-width: 425px) {
+    .language-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .language-row button {
+        align-self: flex-end;
+    }
+
+    .basic-info {
+        grid-template-columns: 1fr;
+        /* stack image & form vertically */
+        text-align: center;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+        /* one input per row */
+    }
+
+    .grid-3 {
+        display: block !important;
+    }
+
+    .profile-img {
+        margin: auto;
+    }
+
+    .upload-btn {
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+    .mat-form-field {
+        width: 100%;
+    }
+
+    .delete-btn2 {
+        position: absolute;
+        top: -22px !important;
+    }
+}

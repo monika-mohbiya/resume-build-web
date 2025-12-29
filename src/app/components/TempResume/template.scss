@@ -1,0 +1,20 @@
+.template-screen {
+    width: 210mm !important;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px;
+    min-height: 297mm;
+    background: #fff;
+    margin: 16px auto;
+}
+
+.word-wrap {
+    overflow-wrap: anywhere;
+    word-break: normal;
+    white-space: normal;
+}
+
+@media (max-width: 768px) {
+    .template-screen {
+        width: 100% !important;
+    }
+}

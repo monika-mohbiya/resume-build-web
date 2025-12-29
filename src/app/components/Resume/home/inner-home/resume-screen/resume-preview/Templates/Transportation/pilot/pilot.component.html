@@ -1,0 +1,114 @@
+<div class=" container-fluid py-4">
+    <div class="card shadow-lg border-0 p-4">
+
+        <!-- 1️⃣ NAME + CONTACT -->
+        <div class="mb-3">
+            <h3 class="fw-bold mb-1 pt-2" [ngStyle]="{
+    'background': 'linear-gradient(' + (selectColor || 'black') + ', ' + (selectColor || 'black') + ')',
+    'background-size': '50% 4px',
+    'background-repeat': 'no-repeat',
+    'background-position': 'right top'
+  }">
+                {{ resumeData.section?.Contact?.Name }}
+            </h3>
+
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Contact?.Email }}
+            </p>
+
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Contact?.Mobile }} ·
+                {{ resumeData.section?.Contact?.Address }}
+            </p>
+
+        </div>
+
+        <!-- 2️⃣ SUMMARY -->
+        @if (isSectionEnabled('summary')) {
+        <div class="mb-3">
+            <p class="small mb-0">
+                {{ resumeData.section?.Summary }}
+            </p>
+            <hr>
+        </div>
+        }
+
+        <!-- 5️⃣ EDUCATION -->
+        @if (isSectionEnabled('education') && resumeData?.section?.Education) {
+        <div>
+
+            <p class="fw-bold text-uppercase small mb-2" [ngStyle]="{'color': selectColor}">
+                Education
+            </p>
+
+            <div class="d-flex justify-content-between">
+                <p class="fw-semibold mb-0">
+                    {{ resumeData.section.Education.FieldOfStudy }}
+                </p>
+                <p class="small text-muted mb-0">
+                    {{ resumeData.section.Education.Year }}
+                </p>
+            </div>
+
+            <p class="small text-muted mb-0">
+                {{ resumeData.section.Education.university }} ·
+                {{ resumeData.section.Education.Location }}
+            </p>
+
+        </div>
+        }
+
+        <!-- 4️⃣ EXPERIENCE -->
+        @if (isSectionEnabled('experience') && resumeData?.section?.Experience?.length) {
+        <div class="mb-4">
+
+            <p class="fw-bold text-uppercase small mb-2" [ngStyle]="{'color': selectColor}">
+                Experience
+            </p>
+
+            @for (job of resumeData.section.Experience; track job) {
+            <div class="mb-4">
+
+                <!-- Title + Location -->
+                <div class="d-flex justify-content-between">
+                    <p class="fw-semibold mb-0">
+                        {{ job.RoleAndJobTitle }}
+                    </p>
+                    <p class="small text-muted mb-0">
+                        {{ job.Location }}
+                    </p>
+                </div>
+
+                <!-- Company + Dates -->
+                <p class="small text-muted mb-1">
+                    {{ job.Employer }} ·
+                    {{ job.StartDate }} – {{ job.EndDate || 'Present' }}
+                </p>
+
+                <!-- Points -->
+                <ul class="small ps-3 mb-0">
+                    @for (point of job.Description.split('. '); track point) {
+                    <li>{{ point }}</li>
+                    }
+                </ul>
+
+            </div>
+            }
+
+        </div>
+        }
+        <!-- 3️⃣ SKILLS -->
+        @if (isSectionEnabled('skills')) {
+        <div class="mb-4">
+            <p class="fw-bold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">
+                Skills
+            </p>
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Skills }}
+            </p>
+        </div>
+        }
+
+
+    </div>
+</div>

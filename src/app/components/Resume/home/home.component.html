@@ -1,0 +1,100 @@
+<div class="container">
+    <div class="m-5 text-center">
+        <div class="heading-title">
+            <h1>Get inspired by resume samples from professional resume experts</h1>
+        </div>
+
+        <div class="d-flex gap-3 justify-content-center">
+            <button class="blue-color text-white border-transparent rounded">
+                Create my resume
+            </button>
+            <button class="rounded text-blue" routerLink="/inner-home">
+                Explore all samples
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- @if(showCarousel){
+<div class="container-fluid ">
+    <div class="carousel-wrapper">
+        <owl-carousel-o [options]="carouselOptions">
+            @for(slide of slides;track slide; let i = $index){
+            <ng-container>
+                <ng-template carouselSlide [id]="i.toString()">
+                    <div class="single-card">
+                        <div class="card cardbox">
+                            {{ slide.icon }}
+                            <h5>{{ slide.title }}</h5>
+                            <h6 class="">{{ slide.data.length }} templates</h6>
+
+                            <div class="paper-stack" (click)="SelectCtg(slide)">
+                                <div class="paper page-1"></div>
+                                <div class="paper page-2"></div>
+                                <div class="paper page-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </ng-container>
+            }
+
+        </owl-carousel-o>
+    </div>
+</div>
+} -->
+
+
+
+
+@if (showCarousel) {
+<div class="container">
+    <div class="carousel-wrapper">
+
+        <owl-carousel-o [options]="carouselOptions">
+
+            @for (group of chunkedSlides; track $index) {
+            <ng-template carouselSlide>
+
+                <div class="row">
+                    @for (slide of group; track slide) {
+                    <div class="col-12 col-sm-6 col-md-3 p-4">
+                        <div class="card cardbox">
+                            <div class="text-start p-2">
+                                <span class="fs-4"> {{ slide.icon }}</span>
+                                <h5 style="height: 50px;">{{ slide.title }}</h5>
+                                <h6>{{ slide.data.length }} templates</h6>
+                            </div>
+
+                            <div class="paper-stack" (click)="SelectCtg(slide)">
+                                <div class="paper page-1"></div>
+                                <div class="paper page-2"></div>
+                                <div class="paper page-3">
+
+                                    <div class="resume-card-short">
+                                        <div class="resume-thumb-frame">
+                                            <app-resume-preview
+                                                [selectedComponent]="getComponent(slide.data[0]?.templateKey)"
+                                                [resumeData]="getResumeData(slide.data[0])" [sections]="previewSections"
+                                                [selectColor]="'black'">
+                                            </app-resume-preview>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                </div>
+
+            </ng-template>
+            }
+
+        </owl-carousel-o>
+
+    </div>
+</div>
+}

@@ -1,0 +1,111 @@
+<div class="resume-page">
+    <!-- Hero / Header Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1>Resume samples</h1>
+            <p>Use professionally written and formatted resume samples that will get you the job you want.</p>
+            <!-- Main Search -->
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="search-wrapper">
+                        <input type="text" placeholder="Search resume samples..." [(ngModel)]="searchText"
+                            (input)="onSearch()" />
+                        <button class="search-btn" (click)="onSearch()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Sticky Search -->
+    <div class="sticky-search" [class.visible]="showStickySearch">
+        <div class="container">
+            <div class="search-wrapper">
+                <input type="text" placeholder="Search resume samples..." [(ngModel)]="searchText"
+                    (input)="onSearch()" />
+                <button (click)="onSearch()">Search</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="resume-page-container">
+        <!-- Main Content -->
+        <div class="content">
+
+
+            <!-- Example categories -->
+            <div class="categories">
+                @for(cat of categories;track cat){
+                <span class="category-pill" [class.active]="searchText === cat" (click)="onCategoryClick(cat)">
+                    {{ cat }}
+                </span>
+                }
+            </div>
+
+            <div class="page-layout">
+
+                <!-- LEFT SIDEBAR -->
+                <aside class="sidebar">
+                    <h3>Industries</h3>
+
+                    <ul>
+                        @for (ind of filteredIndustries; track ind.title) {
+                        <li (click)="selectIndustry(ind)" [class.active]="!isGlobalSearch && ind === selectedIndustry">
+
+                            <span class="m-2"> {{ind.icon}}</span> {{ ind.title }}
+                        </li>
+                        }
+
+
+                    </ul>
+                </aside>
+
+                <!-- RIGHT CONTENT -->
+                <section class="content">
+                    @if (!isGlobalSearch) {
+                    {{ selectedIndustry.icon }} {{ selectedIndustry.title }}
+                    } @else {
+                    <strong>Search Results</strong>
+                    }
+
+                    <p class="count">{{ cardsToShow.length }}</p>
+
+                    @if (cardsToShow.length === 0) {
+                    <p class="no-results">No resume samples found</p>
+                    }
+                    <div class="row  justify-content-center">
+                        @for (s of cardsToShow; track s.title) {
+                        <!-- {{cardsToShow | json}}  (click)="navRouter(s)"-->
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-4 p-2  align-items-center align-self-center "
+                            (click)="navRouter(s)">
+                            <!-- <div class="resume-preview">Resume Preview</div> -->
+
+                            <div class="resume-card-short">
+                                <div class="resume-thumb-frame">
+                                    <app-resume-preview [selectedComponent]="getComponent(s.templateKey)"
+                                        [resumeData]="getResumeData(s)" [sections]="previewSections"
+                                        [selectColor]="'black'">
+                                    </app-resume-preview>
+                                </div>
+
+                                <div class="text-center">
+                                    <h6 class="resume-title p-2">{{ s.title }}</h6>
+                                </div>
+                            </div>
+
+
+
+                            <!-- @if (isGlobalSearch) {
+                            <p class="industry-name">{{ s.title }}</p>
+                            } -->
+                        </div>
+                        }
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</div>

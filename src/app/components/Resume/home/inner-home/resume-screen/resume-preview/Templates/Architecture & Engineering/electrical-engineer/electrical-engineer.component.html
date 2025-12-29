@@ -1,0 +1,95 @@
+<div class="container-fluid py-4">
+
+    <div class="card shadow-lg border-0 p-4">
+
+
+        <div class="mb-3 border-4 ">
+            <h2 class="fw-bold mb-1 pb-2" [ngStyle]="{
+       'border-top': '4px solid ' + (selectColor || 'black')
+     }">
+                <span class="" [ngStyle]="{'color': selectColor}">{{ resumeData.section?.Contact?.Name }}</span>
+            </h2>
+
+            <p class="small text-muted mb-0">
+                {{ resumeData.section?.Contact?.Email }}<br />
+                {{ resumeData.section?.Contact?.Mobile }}<br />
+                {{ resumeData.section?.Contact?.Address }}
+            </p>
+
+        </div>
+
+
+
+
+        @if (isSectionEnabled('summary')) {
+        <div class="mb-3">
+
+            <!-- <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Summary</h4> -->
+            <p class="small mb-0">
+                {{resumeData.section.Summary}}
+            </p>
+            <hr>
+        </div>
+        }
+        @if (isSectionEnabled('skills')) {
+        <div class="mb-3">
+
+            <!-- <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Skills</h4> -->
+            <p class="small mb-0">
+                {{resumeData.section.Skills}}
+            </p>
+            <hr>
+        </div>
+
+        }
+        @if (isSectionEnabled('education')) {
+        @if(resumeData?.section?.Education){
+        <div class="mb-3">
+
+            <!-- <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Education</h4> -->
+            <p class="small mb-0 fw-semibold" [ngStyle]="{'color': selectColor}">{{
+                resumeData.section.Education.FieldOfStudy }}</p>
+            <p class="text-muted small mb-0">
+                {{ resumeData.section.Education.university }} · {{ resumeData.section.Education.Location }}
+            </p>
+            <hr>
+        </div>
+        }
+        }
+
+
+        @if (isSectionEnabled('experience')) {
+        @if(resumeData?.section?.Experience?.length){
+
+        <div class="mb-3">
+            <!-- <p class="fw-semibold text-uppercase small mb-2" [ngStyle]="{'color': selectColor}">Experience</p> -->
+            @for(job of resumeData.section.Experience;track job){
+            <div class="mb-3">
+                <div class="d-flex justify-content-between flex-wrap">
+                    <h4 class="fw-semibold small mb-0" [ngStyle]="{'color': selectColor}">{{ job.RoleAndJobTitle }}</h4>
+                    <span class="text-muted small">
+                        {{ job.StartDate }} – {{ job.EndDate ? job.EndDate : 'Present' }}
+                    </span>
+                </div>
+                <p class="text-muted small mb-1">
+                    {{ job.Employer }} · {{ job.Location }}
+                </p>
+                <ul class="small ps-3 mb-0">
+                    @for(point of job.Description.split('. ');track point){
+                    <li>{{ point }}</li>
+
+                    }
+                </ul>
+            </div>
+            }
+            <hr>
+        </div>
+
+        }
+        }
+
+
+
+    </div>
+
+</div>

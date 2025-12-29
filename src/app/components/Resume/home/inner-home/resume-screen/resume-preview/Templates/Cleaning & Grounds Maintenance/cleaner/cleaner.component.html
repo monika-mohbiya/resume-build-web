@@ -1,0 +1,89 @@
+<div class="card shadow-sm border-0 w-100">
+    <div class="card shadow-lg border-0 p-4">
+
+        <!-- 1️⃣ CONTACT DETAILS -->
+        <div class="text-center mb-4">
+            <h1 class="fw-bold mb-1">
+                {{ resumeData.section?.Contact?.Name }}
+            </h1>
+
+            <p class="text-muted small mb-0">
+                {{ resumeData.section?.Contact?.Email }} |
+                {{ resumeData.section?.Contact?.Mobile }} |
+                {{ resumeData.section?.Contact?.Address }}
+            </p>
+        </div>
+
+        <!-- 2️⃣ SUMMARY -->
+        @if (isSectionEnabled('summary')) {
+        <div class="mb-4">
+            <p class="text-muted small mb-0">
+                {{ resumeData.section?.Summary }}
+            </p>
+        </div>
+
+        <hr>
+        }
+        <!-- 3️⃣ EDUCATION -->
+        @if (isSectionEnabled('education')) {
+        @if(resumeData?.section?.Education){
+        <div class="mb-4">
+            <p class="fw-semibold mb-1">
+                {{ resumeData.section?.Education?.FieldOfStudy }}
+            </p>
+
+            <p class="text-muted small mb-0">
+                {{ resumeData.section?.Education?.university }} ·
+                {{ resumeData.section?.Education?.Location }}
+            </p>
+
+            <p class="text-muted small mb-0">
+                {{ resumeData.section?.Education?.Year }}
+            </p>
+        </div>
+
+        <hr>
+        }
+        }
+        <!-- 4️⃣ EXPERIENCE -->
+        @if (isSectionEnabled('experience')) {
+        @if(resumeData?.section?.Experience?.length){
+        <div>
+            @for (job of resumeData.section?.Experience; track job) {
+            <div class="mb-4">
+
+                <p class="fw-semibold mb-1">
+                    {{ job.RoleAndJobTitle }}
+                </p>
+
+                <p class="text-muted small mb-1">
+                    {{ job.Employer }} · {{ job.Location }}
+                </p>
+
+                <p class="text-muted small mb-2">
+                    {{ job.StartDate }} – {{ job.EndDate || 'Present' }}
+                </p>
+
+                <ul class="small ps-3 mb-0">
+                    @for (point of job.Description.split('. '); track point) {
+                    <li>{{ point }}</li>
+                    }
+                </ul>
+
+            </div>
+            }
+        </div>
+        }
+        }
+        @if (isSectionEnabled('skills')) {
+        <div class="mb-3">
+            <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Skills</h4>
+            <p class="small mb-0">
+                {{resumeData.section.Skills}}
+            </p>
+        </div>
+        <hr class="my-3">
+        }
+
+    </div>
+</div>
