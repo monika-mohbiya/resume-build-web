@@ -4,12 +4,12 @@
         <!-- 1️⃣ NAME -->
         <!-- HEADER -->
         <div class="mb-3 ">
-            <h5 class="fw-bold mb-1" [ngStyle]="{'color': selectColor}">{{resumeData.section.Contact.Name}}
+            <h5 class="fw-bold mb-1" [ngStyle]="{'color': selectColor}">{{ latestData.section?.Contact?.Name }}
             </h5>
             <p class="small text-muted mb-0 ">
-                {{ resumeData.section.Contact.Email }}<br />
-                {{ resumeData.section.Contact.Mobile }}<br />
-                {{ resumeData.section.Contact.Address }}
+                {{ latestData.section?.Contact?.Email }}<br />
+                {{ latestData.section?.Contact?.Mobile }}<br />
+                {{ latestData.section?.Contact?.Address }}
             </p>
         </div>
 
@@ -17,46 +17,46 @@
         @if (isSectionEnabled('summary')) {
         <div class="mb-4">
             <p class="small mb-0">
-                {{ resumeData.section?.Summary }}
+                {{latestData.section?.Summary }}
             </p>
             <hr>
         </div>
         }
 
         <!-- 3️⃣ EDUCATION -->
-        @if (isSectionEnabled('education') && resumeData?.section?.Education) {
-        <div class="mb-4">
+        @if (isSectionEnabled('education')) {
+        @if (latestData?.section?.Education?.length) {
 
-            <!-- <p class="fw-bold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">
-                    Education
-                </p> -->
+        <div class="mb-3">
+            <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">
+                Education
+            </h4>
 
-            <p class="fw-semibold mb-0">
-                {{ resumeData.section.Education.FieldOfStudy }}
+            @for (edu of latestData.section.Education; let i = $index; track edu) {
+            <p class="small mb-0 fw-semibold">
+                {{ edu.FieldOfStudy }}
             </p>
 
-            <p class="small text-muted mb-0">
-                {{ resumeData.section.Education.university }} ·
-                {{ resumeData.section.Education.Location }}
+            <p class="text-muted small mb-2">
+                {{ edu.university }} · {{ edu.Location }}
             </p>
+            }
 
-            <p class="small text-muted mb-0">
-                {{ resumeData.section.Education.Year }}
-            </p>
-            <hr>
         </div>
+
+        }
         }
 
 
 
         <!-- EXPERIENCE -->
-        @if (isSectionEnabled('experience') && resumeData?.section?.Experience?.length) {
+        @if (isSectionEnabled('experience') && latestData?.section?.Experience?.length) {
         <div class="mb-4">
             <!-- <p class="fw-bold text-uppercase small mb-2" [ngStyle]="{'color': selectColor}">
                     Experience
                 </p> -->
 
-            @for (job of resumeData.section.Experience; track job) {
+            @for (job of latestData.section.Experience; track job) {
             <div class="mb-4">
 
                 <div class="d-flex justify-content-between">
@@ -90,7 +90,7 @@
                     Skills
                 </p> -->
             <p class="small text-muted mb-0">
-                {{ resumeData.section?.Skills }}
+                {{latestData.section?.Skills }}
             </p>
             <hr>
         </div>

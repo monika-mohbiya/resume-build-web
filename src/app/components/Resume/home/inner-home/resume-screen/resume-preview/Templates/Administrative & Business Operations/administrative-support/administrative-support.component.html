@@ -9,12 +9,12 @@
         <div class="mb-3  p-2" [ngStyle]="{
        'border-left': '4px solid ' + (selectColor || 'black')
      }">
-            <h5 class="fw-bold mb-1" [ngStyle]="{'color': selectColor}">{{resumeData.section.Contact.Name}}
+            <h5 class="fw-bold mb-1" [ngStyle]="{'color': selectColor}">{{ latestData.section?.Contact?.Name }}
             </h5>
             <p class="small text-muted mb-0 ">
-                {{ resumeData.section.Contact.Email }}<br />
-                {{ resumeData.section.Contact.Mobile }}<br />
-                {{ resumeData.section.Contact.Address }}
+                {{ latestData.section?.Contact?.Email }}<br />
+                {{ latestData.section?.Contact?.Mobile }}<br />
+                {{ latestData.section?.Contact?.Address }}
             </p>
         </div>
 
@@ -25,7 +25,7 @@
         <div class="mb-3">
             <p class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Summary</p>
             <p class="small mb-0">
-                {{resumeData.section.Summary}}
+                {{ latestData.section.Summary }}
             </p>
         </div>
 
@@ -37,17 +37,17 @@
         <div class="mb-3">
             <p class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Skills</p>
             <p class="small mb-0">
-                {{resumeData.section.Skills}}
+                {{latestData.section.Skills}}
             </p>
         </div>
         <hr class="my-3">
         }
         <!-- EXPERIENCE -->
         @if (isSectionEnabled('experience')) {
-        @if(resumeData?.section?.Experience?.length){
+        @if(latestData?.section?.Experience?.length){
         <div class="mb-3">
             <p class="fw-semibold text-uppercase small mb-2" [ngStyle]="{'color': selectColor}">Experience</p>
-            @for(job of resumeData.section.Experience;track job){
+            @for(job of latestData.section.Experience;track job){
             <div class="mb-3">
                 <div class="d-flex justify-content-between flex-column">
                     <h4 class="fw-semibold small mb-0">{{ job.RoleAndJobTitle }}</h4>
@@ -75,17 +75,27 @@
 
         <!-- EDUCATION -->
         @if (isSectionEnabled('education')) {
-        @if(resumeData?.section?.Education){
-        <div>
-            <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">Education</h4>
-            <p class="small mb-0 fw-semibold">{{ resumeData.section.Education.FieldOfStudy }}</p>
-            <p class="text-muted small mb-0">
-                {{ resumeData.section.Education.university }} · {{ resumeData.section.Education.Location }}
-            </p>
-        </div>
-        }
-        }
+        @if (latestData?.section?.Education?.length) {
 
+        <div class="mb-3">
+            <h4 class="fw-semibold text-uppercase small mb-1" [ngStyle]="{'color': selectColor}">
+                Education
+            </h4>
+
+            @for (edu of latestData.section.Education; let i = $index; track edu) {
+            <p class="small mb-0 fw-semibold">
+                {{ edu.FieldOfStudy }}
+            </p>
+
+            <p class="text-muted small mb-2">
+                {{ edu.university }} · {{ edu.Location }}
+            </p>
+            }
+
+        </div>
+
+        }
+        }
 
     </div>
     <!-- End Card -->

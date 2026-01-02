@@ -4,15 +4,15 @@
         <!-- 1️⃣ NAME + CONTACT -->
         <div class="mb-4">
             <h2 class="fw-bold mb-1">
-                {{ resumeData.section?.Contact?.Name }}
+                {{latestData.section?.Contact?.Name }}
             </h2>
 
             <p class="text-muted small mb-0">
-                {{ resumeData.section?.Contact?.Address }}
+                {{latestData.section?.Contact?.Address }}
             </p>
             <p class="text-muted small mb-0">
-                {{ resumeData.section?.Contact?.Email }} ·
-                {{ resumeData.section?.Contact?.Mobile }}
+                {{latestData.section?.Contact?.Email }} ·
+                {{latestData.section?.Contact?.Mobile }}
             </p>
         </div>
 
@@ -20,7 +20,7 @@
         @if (isSectionEnabled('summary')) {
         <div class="mb-4">
             <p class="small text-muted mb-0">
-                {{ resumeData.section?.Summary }}
+                {{latestData.section?.Summary }}
             </p>
         </div>
         <hr>
@@ -32,13 +32,13 @@
                     Skills
                 </p> -->
             <p class="small mb-0">
-                {{ resumeData.section?.Skills }}
+                {{latestData.section?.Skills }}
             </p>
             <hr class="">
         </div>
         }
         <!-- 3️⃣ EDUCATION -->
-        @if (isSectionEnabled('education') && resumeData?.section?.Education) {
+        @if (isSectionEnabled('education') && latestData?.section?.Education) {
         <div class="mb-4">
 
             <p class="fw-bold text-uppercase small mb-2">
@@ -47,30 +47,30 @@
 
             <div class="d-flex justify-content-between">
                 <p class="fw-semibold mb-0">
-                    {{ resumeData.section.Education.FieldOfStudy }}
+                    {{ latestData?.section?.Education.FieldOfStudy }}
                 </p>
                 <p class="small text-muted mb-0">
-                    {{ resumeData.section.Education.Year }}
+                    {{ latestData?.section?.Education.Year }}
                 </p>
             </div>
 
             <p class="small text-muted mb-0">
-                {{ resumeData.section.Education.university }} ·
-                {{ resumeData.section.Education.Location }}
+                {{ latestData?.section?.Education.university }} ·
+                {{ latestData?.section?.Education.Location }}
             </p>
             <hr>
         </div>
         }
 
         <!-- 4️⃣ EXPERIENCE -->
-        @if (isSectionEnabled('experience') && resumeData?.section?.Experience?.length) {
+        @if (isSectionEnabled('experience') && latestData?.section?.Experience?.length) {
         <div class="mb-4">
 
             <p class="fw-bold text-uppercase small mb-2">
                 Experience
             </p>
 
-            @for (job of resumeData.section.Experience; track job) {
+            @for (job of latestData.section.Experience; track job) {
             <div class="mb-3">
 
                 <div class="d-flex justify-content-between">

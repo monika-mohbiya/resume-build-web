@@ -24,14 +24,20 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided administrative support to the VP of Operations Managed and maintained a database totaling 3.5 terabytes of data, handling data entry tasks, data archiving and data management for the company Created a highly accurate schedule of all events throughout the company, ensuring all meetings are attended and deadlines were met Coordinated with sales, marketing and other departments to ensure that all deadlines were met"
                     }],
                     Skills: "Communication Skills, Organizational Skills, Administrative Experience, Customer Service, Microsoft Powerpoint, Microsoft Excel, Microsoft Office",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
-                        Location: "Orlando,  Florida",
-                        academicAchievements: ""
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
                     },
-                    Summary: "Dedicated administrative assistant with 4 years of experience providing administrative support to senior executives. Involved in all aspects of office operations, including scheduling, mailings and planning meetings."
+                    ],
+                    Summary: "Dedicated administrative assistant with 4 years of experience providing administrative support to senior executives. Involved in all aspects of office operations, including scheduling, mailings and planning meetings.",
+                    Languages: [],
+                    Certificates: [],
+                    Awards: []
                 }
             },
             {
@@ -53,13 +59,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Maintained a calendar of all company events, including meetings, conferences and training sessions Kept track of company documents and managed legal agreements for an average of 20 clients monthly Maintained a file cabinet for all company documents"
                     }],
                     Skills: "Time Management, English, Microsoft Word, Office Experience, Communication Skills, Administrative Experience, Computer Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
-                        Location: "Orlando,  Florida",
-                        academicAchievements: ""
-                    },
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Articulate, efficient administrative assistant with 4 years of experience in typing and filing documents and assisting with general computer troubleshooting."
                 }
             },
@@ -82,13 +90,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed an average of 2 projects a month, with a monthly billable value of $10k Built and maintained relationships with 4 financial institutions, resulting in new loans totaling $1.5 million Improved the efficiency of bookkeeping by $2,000 per month through the implementation of a customized spreadsheet formula Performed a profit analysis to identify areas for improvement, resulting in a 20% increase in gross revenues per month Managed the re-branding of the company to include new logos, colors and messaging Created a business plan to outline a new direction for the future of the company"
                     }],
                     Skills: "Outside Sales, Hr Sourcing, Time Management, Analysis Skills, Communication Skills, Microsoft Word, Sales",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
-                        Location: "Orlando,  Florida",
-                        academicAchievements: ""
-                    },
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Expert business consultant with 4 years of experience in assessing client needs and working with businesses at different stages of growth to provide solutions to business problems."
                 }
             },
@@ -111,13 +121,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Handled internal and external communications including emails, phone calls and correspondence. Maintained records of communication logs and assisted senior staff with reports and documentation."
                     }],
                     Skills: "Written Communication, Telephone Handling, Record Keeping, Data Entry, MS Word",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-oriented communications clerk with experience handling correspondence and maintaining accurate communication records."
                 }
             },
@@ -140,13 +152,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Advised clients on operational improvements, conducted data analysis and prepared reports to support business decisions. Helped improve workflow efficiency and reduce costs."
                     }],
                     Skills: "Business Analysis, Client Management, Problem Solving, Presentation Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Results-driven consultant with hands-on experience analyzing business processes and recommending effective solutions."
                 }
             },
@@ -169,13 +183,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Entered, updated and verified large volumes of data into company databases with high accuracy. Maintained confidentiality of sensitive information, reviewed data for errors and supported administrative teams with timely data reports."
                     }],
                     Skills: "Data Entry, Typing Speed, Attention to Detail, MS Excel, MS Word, Data Accuracy, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-oriented data entry professional with 4+ years of experience handling high-volume data entry tasks while maintaining accuracy and confidentiality."
                 }
             },
@@ -198,13 +214,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Entered and verified large volumes of data with high accuracy. Maintained confidentiality and ensured timely completion of daily data entry tasks."
                     }],
                     Skills: "Typing Speed, Data Accuracy, MS Excel, Attention to Detail",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Efficient data entry clerk with strong attention to detail and experience handling confidential information."
                 }
             },
@@ -227,13 +245,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided high-level administrative support to executives, managed calendars, arranged meetings and handled confidential documents."
                     }],
                     Skills: "Calendar Management, Confidentiality, Communication, MS Office",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Highly organized executive assistant with experience supporting senior leadership."
                 }
             },
@@ -256,13 +276,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided strategic leadership and overall direction for organizational operations. Oversaw budgeting, policy development and long-term planning while managing senior leadership teams. Built strong relationships with stakeholders and ensured alignment with organizational goals, resulting in improved operational efficiency and sustained growth."
                     }],
                     Skills: "Strategic Leadership, Organizational Management, Budget Planning, Decision Making, Stakeholder Management, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Accomplished executive director with over 5 years of experience leading organizations, driving strategic initiatives and ensuring operational excellence."
                 }
             },
@@ -285,13 +307,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed front desk operations including greeting visitors, answering phone calls and scheduling appointments. Maintained visitor logs, handled administrative paperwork and provided excellent customer service to patients and staff."
                     }],
                     Skills: "Customer Service, Front Desk Management, Appointment Scheduling, Telephone Etiquette, MS Office, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Friendly and professional front desk receptionist with experience managing reception duties and delivering excellent customer service."
                 }
             },
@@ -314,13 +338,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted faculty with academic research, grading assignments and preparing course materials. Provided administrative support to academic departments and supported students with academic inquiries."
                     }],
                     Skills: "Research Assistance, Academic Writing, Time Management, Communication Skills, MS Office, Data Organization",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated graduate assistant with experience supporting faculty, managing academic tasks and assisting students in an educational environment."
                 }
             },
@@ -343,13 +369,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted with recruitment processes, maintained employee records and supported HR operations."
                     }],
                     Skills: "Recruitment Support, Employee Records, Communication, HR Software",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable HR assistant experienced in supporting recruitment and employee administration."
                 }
             },
@@ -372,13 +400,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed day-to-day human resources operations including recruitment, onboarding, employee relations and performance management. Maintained HR records, ensured compliance with company policies and supported management in resolving employee concerns."
                     }],
                     Skills: "HR Operations, Recruitment, Employee Relations, Onboarding, HR Policies, Communication Skills, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Proactive HR generalist with experience supporting end-to-end HR functions and fostering positive employee relations."
                 }
             },
@@ -402,13 +432,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Led human resources operations including recruitment, performance management, employee relations and policy development. Managed HR team, ensured compliance with labor laws and implemented initiatives to improve employee engagement and retention."
                     }],
                     Skills: "HR Leadership, Employee Relations, Performance Management, Policy Development, Team Management, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced HR manager with a strong background in leading HR operations and driving organizational effectiveness."
                 }
             },
@@ -432,13 +464,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Supported overall human resources functions including recruitment, onboarding, employee relations and HR documentation. Assisted in maintaining personnel records, implementing HR policies and ensuring compliance with company standards."
                     }],
                     Skills: "Human Resources Operations, Recruitment Support, Employee Relations, HR Documentation, Communication Skills, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated human resources professional with experience supporting core HR operations and promoting positive workplace culture."
                 }
             },
@@ -462,13 +496,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Handled end-to-end human resources functions including recruitment, onboarding, employee relations, performance management and HR documentation. Supported management with policy implementation, maintained employee records and ensured compliance with organizational standards."
                     }],
                     Skills: "HR Operations, Recruitment, Employee Relations, Onboarding, Performance Management, HR Policies, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced human resources generalist with a strong background in supporting full-cycle HR operations and promoting a positive workplace culture."
                 }
             },
@@ -491,13 +527,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Led and managed end-to-end human resources functions including recruitment, performance management, employee relations and policy development. Supervised HR staff, ensured compliance with labor laws and implemented HR strategies to improve employee engagement and retention."
                     }],
                     Skills: "HR Leadership, Employee Relations, Performance Management, Policy Development, Team Management, Strategic Planning, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced human resources manager with a proven ability to lead HR operations, support organizational goals and build a positive workplace culture."
                 }
             },
@@ -521,13 +559,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted prospective tenants with property tours, lease applications and rental agreements. Maintained occupancy levels, addressed tenant inquiries and coordinated with property management to ensure smooth leasing operations."
                     }],
                     Skills: "Leasing, Customer Service, Tenant Relations, Sales, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Customer-focused leasing consultant with experience supporting leasing operations and tenant satisfaction."
                 }
             },
@@ -551,13 +591,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Advised organizations on improving business performance, operational efficiency and strategic planning. Conducted market and financial analysis, identified improvement opportunities and collaborated with leadership teams to implement effective management solutions."
                     }],
                     Skills: "Management Consulting, Business Strategy, Process Improvement, Data Analysis, Stakeholder Management, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Analytical management consultant with experience helping organizations optimize processes, improve performance and achieve strategic objectives."
                 }
             },
@@ -580,13 +622,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed office procedures, coordinated schedules, handled documentation and supported management with administrative reporting."
                     }],
                     Skills: "Office Administration, Scheduling, Documentation, MS Office, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Organized office administrator with experience managing office operations and administrative processes."
                 }
             },
@@ -610,13 +654,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided administrative support including filing, data entry, scheduling and assisting staff with daily office tasks to ensure smooth operations."
                     }],
                     Skills: "Office Support, Filing, Data Entry, MS Office, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dependable office assistant skilled in supporting daily administrative and clerical operations."
                 }
             },
@@ -640,13 +686,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Performed general office duties including filing documents, data entry, handling correspondence and assisting staff with administrative tasks. Maintained organized records and supported daily office operations to ensure efficiency."
                     }],
                     Skills: "Office Administration, Filing, Data Entry, MS Word, MS Excel, Communication Skills, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable office clerk with experience supporting administrative operations and maintaining accurate office records."
                 }
             },
@@ -670,13 +718,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Oversaw daily office operations, supervised staff, managed budgets and ensured smooth administrative functioning."
                     }],
                     Skills: "Office Administration, Team Management, Budgeting, MS Office",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced office manager skilled in handling operations and staff coordination."
                 }
             },
@@ -701,13 +751,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Oversaw daily business operations, improved operational processes, managed teams and ensured efficient workflow across departments."
                     }],
                     Skills: "Operations Management, Process Improvement, Team Leadership, Strategic Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Results-driven operations manager experienced in optimizing processes and managing teams for business success."
                 }
             },
@@ -731,13 +783,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided personalized administrative support including scheduling, travel arrangements, correspondence and task coordination."
                     }],
                     Skills: "Time Management, Organization, Confidentiality, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Highly organized personal assistant experienced in supporting executives with daily tasks and schedules."
                 }
             },
@@ -761,13 +815,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed multiple related projects, coordinated stakeholders and ensured program objectives were achieved within scope and budget."
                     }],
                     Skills: "Program Management, Stakeholder Coordination, Planning, Risk Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced program manager skilled in coordinating projects and driving strategic initiatives."
                 }
             },
@@ -792,13 +848,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Planned, executed and delivered multiple projects within scope, budget and timelines. Coordinated cross-functional teams, tracked project milestones, managed risks and communicated project status to stakeholders to ensure successful project outcomes."
                     }],
                     Skills: "Project Management, Team Coordination, Risk Management, Time Management, Stakeholder Communication, MS Excel, MS Project",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Results-oriented project manager with experience leading cross-functional teams and delivering projects on time and within budget."
                 }
             },
@@ -822,13 +880,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed day-to-day operations of residential and commercial properties including tenant relations, rent collection, lease administration and property maintenance. Coordinated with vendors, handled inspections and ensured compliance with property regulations and safety standards."
                     }],
                     Skills: "Property Management, Tenant Relations, Lease Administration, Rent Collection, Vendor Coordination, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced property manager with a strong background in overseeing property operations, maintaining tenant satisfaction and ensuring regulatory compliance."
                 }
             },
@@ -852,13 +912,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Greeted visitors, managed front desk operations, scheduled appointments and handled phone inquiries."
                     }],
                     Skills: "Customer Service, Front Desk Management, Phone Etiquette",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Friendly receptionist with strong communication and customer service skills."
                 }
             },
@@ -881,13 +943,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed end-to-end recruitment processes including sourcing candidates, conducting interviews and coordinating hiring decisions. Built talent pipelines and collaborated with hiring managers to meet staffing needs."
                     }],
                     Skills: "Talent Acquisition, Candidate Screening, Interviewing, Sourcing, Communication Skills, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Results-driven recruiter with experience identifying, interviewing and placing qualified candidates across multiple roles."
                 }
             },
@@ -910,13 +974,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Handled correspondence, scheduling, document preparation and provided administrative support to senior staff."
                     }],
                     Skills: "Scheduling, Documentation, Communication Skills, MS Office",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional secretary with experience supporting executives and managing office communications."
                 }
             },
@@ -949,13 +1015,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Designed residential and commercial buildings, prepared architectural drawings and collaborated with engineers and clients to deliver functional and aesthetically pleasing designs while ensuring compliance with building codes."
                     }],
                     Skills: "Architectural Design, AutoCAD, Design Planning, Building Codes, Client Coordination",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative architect with experience designing functional and visually appealing structures while meeting client and regulatory requirements."
                 }
             },
@@ -979,13 +1047,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Planned, designed and supervised construction projects including roads, drainage systems and buildings. Conducted site inspections and ensured projects met safety and quality standards."
                     }],
                     Skills: "Civil Engineering, Site Supervision, Construction Planning, AutoCAD, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-oriented civil engineer with experience delivering infrastructure projects safely and efficiently."
                 }
             },
@@ -1008,13 +1078,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Created visual designs for digital and print media, collaborated with clients to understand requirements and delivered creative solutions aligned with brand guidelines."
                     }],
                     Skills: "Creative Design, Adobe Photoshop, Illustrator, Visual Communication, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Innovative designer with experience producing engaging visual content for various platforms."
                 }
             },
@@ -1038,13 +1110,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Designed, tested and maintained electrical systems and equipment. Assisted in troubleshooting electrical issues and ensured compliance with safety standards."
                     }],
                     Skills: "Electrical Systems, Troubleshooting, Circuit Design, Safety Standards, Technical Analysis",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled electrical engineer with hands-on experience in system design and maintenance."
                 }
             },
@@ -1068,13 +1142,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Worked on engineering projects involving design, testing and process improvement. Collaborated with cross-functional teams to deliver efficient technical solutions."
                     }],
                     Skills: "Engineering Principles, Problem Solving, Technical Analysis, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Versatile engineer with experience supporting technical projects and improving system efficiency."
                 }
             },
@@ -1098,13 +1174,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Supported engineering teams with design documentation, analysis and project coordination. Assisted in testing and reporting project outcomes."
                     }],
                     Skills: "Engineering Support, Documentation, Analysis, MS Excel, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated engineering professional with experience supporting multidisciplinary engineering projects."
                 }
             },
@@ -1128,13 +1206,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Worked on engineering projects involving design, testing and process improvement. Collaborated with cross-functional teams to deliver efficient technical solutions."
                     }],
                     Skills: "Engineering Principles, Problem Solving, Technical Analysis, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Versatile engineer with experience supporting technical projects and improving system efficiency."
                 }
             },
@@ -1158,13 +1238,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted senior engineers with design tasks, data analysis and project documentation. Learned engineering processes while contributing to ongoing projects."
                     }],
                     Skills: "Basic Engineering Skills, Data Analysis, MS Excel, Problem Solving, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated entry-level engineer eager to learn and contribute to engineering projects."
                 }
             },
@@ -1188,13 +1270,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Designed outdoor spaces including gardens and public landscapes. Prepared layout plans, selected plants and coordinated with clients and contractors."
                     }],
                     Skills: "Landscape Design, Plant Selection, AutoCAD, Creative Planning, Client Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative landscape designer with experience planning attractive and functional outdoor spaces."
                 }
             },
@@ -1218,13 +1302,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Designed, tested and maintained mechanical systems and equipment. Assisted in improving product performance and ensuring safety standards."
                     }],
                     Skills: "Mechanical Design, Troubleshooting, CAD Software, Technical Analysis, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-focused mechanical engineer with experience in system design and performance improvement."
                 }
             }
@@ -1257,13 +1343,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Performed cleaning duties in residential and commercial settings, including sweeping, mopping, dusting and sanitizing surfaces. Ensured all areas were maintained to high cleanliness standards."
                     }],
                     Skills: "Cleaning, Time Management, Attention to Detail, Organization, Safety Compliance",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable cleaner experienced in maintaining clean and hygienic environments in both commercial and residential settings."
                 }
             },
@@ -1287,13 +1375,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Maintained cleanliness and orderliness of public buildings, including restrooms, offices and common areas. Responsible for trash removal, floor care and minor maintenance tasks."
                     }],
                     Skills: "Facility Maintenance, Cleaning, Safety Compliance, Organization, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated custodian with experience in maintaining clean, safe and welcoming environments in public and private facilities."
                 }
             },
@@ -1317,13 +1407,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Performed daily housekeeping tasks including room cleaning, laundry, bed making and restocking supplies. Ensured guest rooms and common areas were maintained to high standards of cleanliness."
                     }],
                     Skills: "Housekeeping, Cleaning, Laundry, Customer Service, Attention to Detail",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Efficient housekeeper experienced in providing a clean and comfortable environment for guests and residents."
                 }
             },
@@ -1347,13 +1439,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Performed janitorial duties including sweeping, mopping, trash removal and cleaning of common areas. Maintained cleaning equipment and ensured safety compliance."
                     }],
                     Skills: "Janitorial Services, Cleaning, Safety Compliance, Organization, Maintenance",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable janitor with experience maintaining clean and safe environments in public and private facilities."
                 }
             },
@@ -1386,13 +1480,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed day-to-day operations of the community center including staff supervision, scheduling, budgeting, and program implementation."
                     }],
                     Skills: "Leadership, Organization, Scheduling, Budgeting, Staff Management, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced administrator skilled in coordinating community programs and managing staff efficiently."
                 }
             },
@@ -1416,13 +1512,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided personal care and emotional support to elderly and disabled clients. Assisted with daily activities including bathing, meal preparation, and medication reminders."
                     }],
                     Skills: "Patient Care, Compassion, Time Management, Communication, First Aid",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Compassionate caregiver experienced in providing high-quality personal care and support to clients."
                 }
             },
@@ -1446,13 +1544,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assessed client needs, coordinated services, and monitored progress. Worked with healthcare providers, social workers, and families to ensure clients received necessary support."
                     }],
                     Skills: "Case Management, Counseling, Communication, Problem Solving, Client Advocacy",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled case manager with experience in assisting clients and coordinating social and healthcare services."
                 }
             },
@@ -1476,13 +1576,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted patients with daily living activities including hygiene, mobility, and meal preparation. Monitored health conditions and reported changes to healthcare professionals."
                     }],
                     Skills: "Patient Care, Hygiene Assistance, Observation, Communication, Medication Support",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable home health aide experienced in providing care and support for patients in home settings."
                 }
             },
@@ -1506,13 +1608,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided spiritual guidance, conducted worship services, and offered counseling to congregation members. Organized community outreach programs and charity events."
                     }],
                     Skills: "Leadership, Counseling, Public Speaking, Community Outreach, Event Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated pastor with experience guiding congregation members and organizing community programs."
                 }
             },
@@ -1536,13 +1640,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided personal care to clients including assistance with bathing, dressing, mobility, and meal preparation. Supported clients’ daily routines and emotional well-being."
                     }],
                     Skills: "Personal Care, Compassion, Time Management, Observation, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Compassionate personal care attendant experienced in helping clients maintain independence and comfort."
                 }
             },
@@ -1565,13 +1671,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Planned, implemented, and evaluated community programs. Coordinated with staff and volunteers to ensure program goals were met and participants received support."
                     }],
                     Skills: "Program Management, Organization, Leadership, Communication, Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Organized program coordinator with experience managing community initiatives and events."
                 }
             },
@@ -1594,13 +1702,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Developed and implemented public health initiatives, conducted community outreach, and monitored health programs to ensure compliance with regulations."
                     }],
                     Skills: "Public Health, Research, Communication, Community Outreach, Data Analysis",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced public health specialist skilled in community health initiatives and program evaluation."
                 }
             },
@@ -1623,13 +1733,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted clients in accessing social services, supported families, and collaborated with agencies to provide resources for housing, healthcare, and employment."
                     }],
                     Skills: "Client Support, Counseling, Case Management, Communication, Advocacy",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated social services worker with experience helping clients access resources and improve quality of life."
                 }
             },
@@ -1652,13 +1764,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted in various community programs including event setup, tutoring, and supporting elderly and disabled clients. Helped improve community engagement and outreach."
                     }],
                     Skills: "Community Service, Teamwork, Communication, Event Support, Organization",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated volunteer experienced in supporting community initiatives and helping diverse populations."
                 }
             }
@@ -1691,13 +1805,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Constructed, installed, and repaired wooden structures and furniture. Read blueprints, measured materials, and ensured high-quality workmanship."
                     }],
                     Skills: "Woodworking, Blueprint Reading, Attention to Detail, Measurement, Hand Tools, Power Tools",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled carpenter with experience in constructing and repairing wooden structures, focusing on precision and quality."
                 }
             },
@@ -1720,13 +1836,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Performed general construction tasks including site preparation, equipment handling, material transport, and assisting in building structures safely."
                     }],
                     Skills: "Construction, Safety Compliance, Equipment Operation, Teamwork, Physical Stamina, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated construction worker experienced in assisting with building projects and ensuring safety compliance on-site."
                 }
             },
@@ -1749,13 +1867,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Installed, maintained, and repaired electrical systems in residential and commercial buildings. Diagnosed electrical problems and ensured compliance with safety standards."
                     }],
                     Skills: "Electrical Systems, Wiring, Troubleshooting, Safety Compliance, Problem Solving, Technical Knowledge",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Certified electrician skilled in installation and maintenance of electrical systems with strong adherence to safety standards."
                 }
             },
@@ -1778,13 +1898,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Coordinated construction projects, scheduled tasks, managed resources, and communicated with contractors to ensure project milestones were met."
                     }],
                     Skills: "Project Management, Scheduling, Communication, Team Coordination, Problem Solving, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Organized project coordinator experienced in planning and executing construction projects efficiently."
                 }
             },
@@ -1807,13 +1929,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Performed welding tasks on metal structures, ensuring strong joints and adherence to design specifications. Followed safety procedures and maintained equipment."
                     }],
                     Skills: "Welding, Metal Fabrication, Safety Compliance, Blueprint Reading, Attention to Detail, Equipment Maintenance",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced welder with a focus on precision metalwork and adherence to safety standards."
                 }
             }
@@ -1846,13 +1970,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provide academic guidance to students, assist with course planning, and support career development."
                     }],
                     Skills: "Student Counseling, Academic Planning, Career Guidance, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated academic advisor with proven experience in guiding students toward academic success."
                 }
             },
@@ -1875,13 +2001,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Teach undergraduate courses in subject area, develop lesson plans, and assess student performance."
                     }],
                     Skills: "Teaching, Curriculum Development, Student Assessment, Public Speaking",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced adjunct professor specializing in delivering high-quality instruction to diverse student groups."
                 }
             },
@@ -1904,13 +2032,16 @@ export const RESUME_TEMPLATES = [
                         Description: "Guide prospective students through admissions process, evaluate applications, and coordinate recruitment events."
                     }],
                     Skills: "Student Recruitment, Application Evaluation, Communication, Event Coordination",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2013",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
                     },
+                    ],
                     Summary: "Motivated admissions counselor with strong experience in student recruitment and enrollment management."
                 }
             },
@@ -1933,13 +2064,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Teach visual arts to students, develop creative projects, and organize exhibitions."
                     }],
                     Skills: "Art Instruction, Creativity, Lesson Planning, Classroom Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Art Competition Winner"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Passionate art teacher with experience inspiring students to develop artistic skills and creativity."
                 }
             },
@@ -1962,13 +2095,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Support principal in school administration, oversee daily operations, and manage student discipline."
                     }],
                     Skills: "School Administration, Leadership, Policy Implementation, Staff Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2009",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Valedictorian"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced assistant principal dedicated to fostering a positive learning environment and school success."
                 }
             },
@@ -1991,13 +2126,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Teach core subjects to elementary students, plan lessons, and monitor academic progress."
                     }],
                     Skills: "Lesson Planning, Classroom Management, Student Engagement, Curriculum Development",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2010",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Teacher of the Year Nominee"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated elementary teacher focused on creating engaging learning experiences for young students."
                 }
             },
@@ -2020,13 +2157,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Manage library resources, assist patrons, organize events, and promote literacy programs."
                     }],
                     Skills: "Library Management, Cataloging, Research, Event Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2008",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Library Volunteer Award"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional librarian with experience in managing library operations and supporting community literacy."
                 }
             },
@@ -2049,13 +2188,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assist librarians in daily operations, catalog books, and help library patrons."
                     }],
                     Skills: "Cataloging, Customer Service, Inventory Management, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "High School Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable library assistant with strong skills in organization, cataloging, and patron support."
                 }
             },
@@ -2078,13 +2219,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Support classroom teachers, provide instructional assistance, and supervise students."
                     }],
                     Skills: "Classroom Support, Instructional Assistance, Student Supervision, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Committed paraprofessional dedicated to supporting teachers and enhancing student learning."
                 }
             },
@@ -2107,13 +2250,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Design personalized fitness programs, instruct clients, and monitor progress."
                     }],
                     Skills: "Fitness Training, Program Design, Client Motivation, Health & Wellness",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Certified Fitness Trainer"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Certified personal trainer with experience helping clients achieve fitness goals safely."
                 }
             },
@@ -2136,13 +2281,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Plan and implement developmentally appropriate lessons for preschool-aged children."
                     }],
                     Skills: "Early Childhood Education, Lesson Planning, Child Development, Classroom Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Early Childhood Certification"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Passionate preschool teacher dedicated to fostering growth and development in young learners."
                 }
             },
@@ -2165,13 +2312,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Lead school operations, manage staff, implement policies, and promote academic excellence."
                     }],
                     Skills: "Leadership, School Administration, Policy Implementation, Staff Development",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2008",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Valedictorian"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced school principal committed to leading schools towards academic success and student development."
                 }
             },
@@ -2194,13 +2343,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Teach undergraduate and graduate courses, conduct research, and advise students."
                     }],
                     Skills: "Teaching, Research, Academic Advising, Curriculum Development",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2007",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated professor with extensive experience in teaching, research, and student mentorship."
                 }
             },
@@ -2223,13 +2374,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provide counseling services to students, support academic planning, and assist with personal development."
                     }],
                     Skills: "Student Counseling, Academic Support, Communication, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2009",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced school counselor committed to guiding students through academic and personal challenges."
                 }
             },
@@ -2252,13 +2405,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provide specialized instruction to students with diverse learning needs and adapt curriculum accordingly."
                     }],
                     Skills: "Special Education, Lesson Planning, Classroom Management, Individualized Instruction",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Special Education Certification"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Passionate special education teacher dedicated to supporting students' unique learning needs."
                 }
             },
@@ -2281,13 +2436,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Cover classes for absent teachers, follow lesson plans, and maintain classroom order."
                     }],
                     Skills: "Classroom Management, Lesson Implementation, Adaptability, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Flexible substitute teacher with experience maintaining a productive classroom environment."
                 }
             },
@@ -2310,13 +2467,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Teach core subjects, plan lessons, and assess student performance."
                     }],
                     Skills: "Teaching, Lesson Planning, Classroom Management, Student Engagement",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2010",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Teacher of the Year Nominee"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated teacher with a focus on providing high-quality education and fostering student success."
                 }
             },
@@ -2339,13 +2498,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assist teachers in classroom management, lesson implementation, and student support."
                     }],
                     Skills: "Classroom Support, Student Assistance, Lesson Implementation, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Supportive teaching assistant dedicated to helping students and teachers achieve academic success."
                 }
             },
@@ -2368,13 +2529,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provide individual and group tutoring sessions in various subjects to enhance student understanding."
                     }],
                     Skills: "Tutoring, Subject Expertise, Student Assessment, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced tutor committed to helping students achieve academic success and improve learning outcomes."
                 }
             }
@@ -2407,13 +2570,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managing invoices, tracking payments, reconciling accounts, and ensuring timely collections."
                     }],
                     Skills: "Accounts Management, Invoice Processing, Reconciliation, MS Excel, SAP",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll Student"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-oriented accounts receivable analyst with 5+ years of experience in managing financial transactions and improving collection processes."
                 }
             },
@@ -2436,13 +2601,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Prepared financial statements, maintained general ledger, managed budgets, and assisted with audits."
                     }],
                     Skills: "Financial Reporting, Bookkeeping, Tax Preparation, QuickBooks, Microsoft Excel",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional accountant with strong analytical skills and experience in preparing and reviewing financial reports for accuracy and compliance."
                 }
             },
@@ -2465,13 +2632,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted in data entry, reconciled accounts, and supported the accounting team with monthly reports."
                     }],
                     Skills: "Data Entry, Account Reconciliation, MS Excel, QuickBooks",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated accounting intern with hands-on experience in financial recordkeeping and account reconciliation."
                 }
             },
@@ -2494,13 +2663,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Leading accounting team, overseeing financial reporting, budgeting, and ensuring compliance with GAAP standards."
                     }],
                     Skills: "Team Management, Budgeting, Financial Reporting, QuickBooks, SAP, Compliance",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Valedictorian"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced accounting manager with a strong background in financial oversight, team leadership, and process improvement."
                 }
             },
@@ -2523,13 +2694,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Processed vendor invoices, managed payments, reconciled statements, and ensured timely disbursements."
                     }],
                     Skills: "Invoice Processing, Payment Reconciliation, Vendor Management, MS Excel, SAP",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable accounts payable professional with expertise in managing vendor accounts and maintaining accurate financial records."
                 }
             },
@@ -2552,13 +2725,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Processed daily customer transactions including deposits, withdrawals, and account inquiries. Assisted in maintaining accurate cash balances."
                     }],
                     Skills: "Cash Handling, Customer Service, Account Management, Banking Software",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-oriented bank teller with experience in handling customer transactions and providing excellent service."
                 }
             },
@@ -2581,13 +2756,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided banking solutions, opened new accounts, assisted with loans, and maintained strong client relationships."
                     }],
                     Skills: "Client Relations, Account Management, Loan Assistance, Financial Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional banker skilled in managing client accounts and offering personalized financial advice."
                 }
             },
@@ -2610,13 +2787,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Maintained accurate financial records, reconciled accounts, prepared invoices, and managed accounts payable/receivable."
                     }],
                     Skills: "Bookkeeping, Account Reconciliation, QuickBooks, Financial Reporting",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Organized bookkeeper with expertise in financial recordkeeping and maintaining accurate accounts."
                 }
             },
@@ -2639,13 +2818,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted with bookkeeping, prepared financial statements, and supported senior accountants in audits."
                     }],
                     Skills: "Accounting, Bookkeeping, MS Excel, Financial Reporting",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated entry-level accountant with hands-on experience in financial reporting and bookkeeping."
                 }
             },
@@ -2668,13 +2849,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided financial planning advice, investment guidance, and portfolio management for clients."
                     }],
                     Skills: "Financial Planning, Investment Management, Risk Analysis, Client Relations",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced financial advisor with a strong background in investment planning and client relationship management."
                 }
             },
@@ -2697,13 +2880,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Analyzed financial data, prepared reports, monitored budgets, and assisted in investment decision-making."
                     }],
                     Skills: "Financial Analysis, Budgeting, Reporting, Excel, Data Analysis",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Analytical financial analyst with experience in data analysis, reporting, and supporting investment decisions."
                 }
             },
@@ -2726,13 +2911,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Advised clients on investments, facilitated capital raising, and analyzed market trends for strategic planning."
                     }],
                     Skills: "Investment Banking, Market Analysis, Client Advisory, Capital Raising",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled investment banker with experience in advising clients, raising capital, and market analysis."
                 }
             },
@@ -2755,13 +2942,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Handled daily transactions, assisted customers with account services, and ensured accurate cash handling."
                     }],
                     Skills: "Customer Service, Cash Handling, Banking Transactions, Account Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2016",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated teller with strong customer service skills and experience in processing banking transactions accurately."
                 }
             }
@@ -2794,13 +2983,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Prepared and served coffee and other beverages, maintained cleanliness of work area, and provided excellent customer service."
                     }],
                     Skills: "Coffee Brewing, Customer Service, Cash Handling, Teamwork, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Energetic barista with experience in preparing coffee beverages, engaging customers, and maintaining high standards of cleanliness and service."
                 }
             },
@@ -2823,13 +3014,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Mixed and served drinks, managed bar inventory, and ensured guests had an enjoyable experience."
                     }],
                     Skills: "Mixology, Customer Service, Cash Handling, Inventory Management, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional bartender with experience in mixing drinks, managing bar operations, and providing excellent customer service."
                 }
             },
@@ -2852,13 +3045,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Prepared and cooked meals, designed menu items, and ensured food quality and hygiene standards."
                     }],
                     Skills: "Culinary Skills, Food Preparation, Menu Planning, Time Management, Team Leadership",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative chef with experience in meal preparation, menu design, and maintaining high culinary standards."
                 }
             },
@@ -2881,13 +3076,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Prepared ingredients, cooked dishes according to recipes, and maintained kitchen cleanliness."
                     }],
                     Skills: "Food Preparation, Cooking, Kitchen Safety, Teamwork, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable cook with experience in food preparation, kitchen operations, and maintaining cleanliness and safety."
                 }
             },
@@ -2910,13 +3107,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Assisted in food preparation, served meals to customers, maintained cleanliness of dining and kitchen areas, and followed health and safety guidelines."
                     }],
                     Skills: "Food Preparation, Customer Service, Hygiene Maintenance, Teamwork, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dependable food service worker with experience in meal preparation, serving, and maintaining a clean and safe environment."
                 }
             },
@@ -2940,13 +3139,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Greeted guests, managed reservations, and coordinated seating arrangements."
                     }],
                     Skills: "Customer Service, Communication, Organization, Multitasking, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Friendly hostess experienced in welcoming guests, managing reservations, and providing excellent customer service."
                 }
             },
@@ -2969,13 +3170,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Oversaw daily operations, coordinated between departments, implemented business strategies, and ensured organizational goals were met efficiently."
                     }],
                     Skills: "Leadership, Strategic Planning, Team Management, Communication, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Results-driven management professional with experience in overseeing operations, leading teams, and achieving organizational objectives."
                 }
             },
@@ -2999,13 +3202,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Oversaw daily operations, managed staff, and ensured customer satisfaction."
                     }],
                     Skills: "Leadership, Staff Management, Customer Service, Scheduling, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced manager with skills in team supervision, daily operations, and maintaining high service standards."
                 }
             },
@@ -3028,13 +3233,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Managed restaurant operations, supervised staff, maintained inventory, and ensured customer satisfaction."
                     }],
                     Skills: "Leadership, Staff Management, Inventory Management, Customer Service, Scheduling",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional restaurant manager experienced in overseeing operations, managing staff, and providing excellent service."
                 }
             },
@@ -3057,13 +3264,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided excellent customer service by taking orders, serving food and beverages, and ensuring a pleasant dining experience. Assisted in training new staff and maintaining a clean, organized workspace."
                     }],
                     Skills: "Customer Service, Communication, Teamwork, Time Management, Food Handling, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated server with experience in providing top-quality customer service and ensuring smooth restaurant operations."
                 }
             },
@@ -3087,13 +3296,15 @@ export const RESUME_TEMPLATES = [
                         Description: "Provided excellent customer service by taking orders, serving food and beverages, and ensuring customer satisfaction. Assisted with setup, cleanup, and maintaining a clean dining environment."
                     }],
                     Skills: "Customer Service, Communication, Teamwork, Time Management, Food Handling, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Friendly and efficient waitress experienced in providing high-quality service and creating positive dining experiences for customers."
                 }
             }
@@ -3138,14 +3349,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Care, Vital Signs Monitoring, Infection Control, Patient Mobility Assistance, Medical Documentation, Teamwork",
 
-                    Education: {
-                        university: "Florida Healthcare Training Institute",
-                        FieldOfStudy: "Certified Nursing Assistant (CNA)",
-                        GraduationDate: "12/2018",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed state-approved CNA program with clinical practice and certification"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -3175,14 +3388,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Advanced Patient Care, Clinical Leadership, Evidence-Based Practice, Staff Training, Care Coordination, Quality Improvement",
 
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Master of Science in Nursing (Clinical Nurse Specialist)",
-                        GraduationDate: "05/2016",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with distinction; specialized in advanced clinical practice and patient care management"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
 
@@ -3213,14 +3428,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Chairside Assistance, Dental Instruments Handling, Infection Control, Patient Care, X-ray Assistance, Appointment Scheduling",
 
-                    Education: {
-                        university: "Florida Dental Training Institute",
-                        FieldOfStudy: "Diploma in Dental Assisting",
-                        GraduationDate: "02/2019",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed hands-on clinical training in dental procedures and patient care"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -3250,14 +3467,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Oral Prophylaxis, Periodontal Care, Dental X-rays, Patient Education, Infection Control, Preventive Dentistry",
 
-                    Education: {
-                        university: "University of Florida – College of Dentistry",
-                        FieldOfStudy: "Associate Degree in Dental Hygiene",
-                        GraduationDate: "06/2017",
-                        Location: "Gainesville, Florida",
-                        academicAchievements:
-                            "Graduated with honors and completed extensive clinical practice in preventive dentistry"
-                    }
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
 
@@ -3288,14 +3507,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "General Dentistry, Oral Diagnosis, Restorative Procedures, Patient Counseling, Dental Surgery Basics, Infection Control",
 
-                    Education: {
-                        university: "University of Florida – College of Dentistry",
-                        FieldOfStudy: "Doctor of Dental Surgery (DDS)",
-                        GraduationDate: "12/2017",
-                        Location: "Gainesville, Florida",
-                        academicAchievements:
-                            "Completed clinical rotations with distinction in restorative and preventive dentistry"
-                    }
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -3325,14 +3546,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Nursing Leadership, Clinical Operations, Staff Management, Patient Care Standards, Regulatory Compliance, Quality Improvement",
 
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Master of Science in Nursing (MSN)",
-                        GraduationDate: "05/2016",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Specialized in nursing leadership and healthcare administration with advanced clinical training"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3363,14 +3586,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Healthcare Operations, Medical Administration, Staff Management, Patient Services, Compliance Management, Budget Planning",
 
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Bachelor of Science in Healthcare Administration",
-                        GraduationDate: "02/2017",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors and completed internship in hospital administration"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3401,14 +3626,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Care, Medication Administration, Vital Signs Monitoring, Clinical Support, Patient Documentation, Infection Control",
 
-                    Education: {
-                        university: "Florida College of Nursing",
-                        FieldOfStudy: "Diploma in Practical Nursing (LPN)",
-                        GraduationDate: "06/2018",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Successfully completed clinical training with hands-on patient care experience"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3439,14 +3666,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Labor & Delivery Care, Fetal Monitoring, Patient Education, Pain Management, Emergency Response, Newborn Care",
 
-                    Education: {
-                        university: "Florida College of Nursing",
-                        FieldOfStudy: "Bachelor of Science in Nursing (BSN)",
-                        GraduationDate: "03/2018",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed specialized clinical training in obstetrics and maternal health nursing"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3477,14 +3706,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Deep Tissue Massage, Swedish Massage, Sports Therapy, Client Assessment, Stress Relief Techniques, Body Mechanics",
 
-                    Education: {
-                        university: "Florida School of Massage Therapy",
-                        FieldOfStudy: "Diploma in Massage Therapy",
-                        GraduationDate: "05/2019",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed 700+ hours of hands-on massage therapy training and clinical practice"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3515,14 +3746,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Care, Vital Signs Monitoring, EHR Management, Clinical Procedures, Phlebotomy, Medical Documentation",
 
-                    Education: {
-                        university: "Florida Medical Training Institute",
-                        FieldOfStudy: "Diploma in Medical Assisting",
-                        GraduationDate: "04/2018",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed clinical externship with hands-on experience in outpatient and primary care settings"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3553,14 +3786,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Medical Billing, ICD-10 & CPT Coding, Insurance Claims Processing, Accounts Receivable, EHR Software, Attention to Detail, Financial Reporting",
 
-                    Education: {
-                        university: "Florida Technical College",
-                        FieldOfStudy: "Diploma in Medical Billing and Coding",
-                        GraduationDate: "05/2019",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed internship handling real-time billing processes and insurance claim submissions"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3591,14 +3826,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Scheduling, Front Desk Management, Medical Records, EHR Software, HIPAA Compliance, Customer Service, Communication Skills, Multitasking",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Excelled in administrative and computer courses; completed internship in a healthcare office front desk role"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3621,12 +3858,14 @@ export const RESUME_TEMPLATES2 = [
             //             Description: " "
             //         }],
             //         Skills: " ",
-            //         Education: {
+            //         Education: [{
             //             university: "Concord Charter School",
             //             FieldOfStudy: "High School Diploma",
-            //             GraduationDate: "",
+            //             GraduationYear: "",
             //             Location: "Orlando,  Florida",
-            //             academicAchievements: ""
+            //             academicAchievements: "",
+            // Marks: "",
+            // Projects: []
             //         },
             //         Summary: " "
             //     }
@@ -3658,14 +3897,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Neonatal Care, Patient Monitoring, Critical Care, Medication Administration, IV Therapy, Family Education, EHR Documentation, Team Collaboration",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed coursework in biology and health sciences; participated in a hospital internship focused on neonatal care"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3696,14 +3937,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Assessment, Vital Signs Monitoring, Medication Administration, IV Therapy, EHR Documentation, Patient Education, Team Collaboration, Time Management",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed high school with honors; volunteered in local healthcare programs and completed introductory nursing internships"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3734,14 +3977,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Anesthesia Administration, Patient Assessment, IV and Epidural Techniques, Airway Management, Critical Care, Pain Management, Post-Operative Care, Team Collaboration",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; participated in health science programs and completed clinical shadowing in anesthesia"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3772,14 +4017,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Clinical Auditing, Healthcare Compliance, Staff Training, Quality Improvement, Program Development, Patient Safety, Policy Implementation, Team Collaboration",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed healthcare administration workshops and participated in clinical observation programs"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3810,14 +4057,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Assessment, Clinical Diagnosis, Treatment Planning, Chronic Disease Management, Patient Education, Health Promotion, Collaboration, EMR Documentation",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed clinical rotations in family medicine, pediatrics, and gerontology; participated in healthcare workshops and certification programs"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3848,14 +4097,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Care, Medication Administration, Vital Signs Monitoring, Care Planning, Patient Education, Team Collaboration, Clinical Documentation, Emergency Response",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; participated in clinical rotations in pediatrics, medical-surgical, and geriatrics; completed certified nursing assistant training programs"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3886,14 +4137,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Patient Care, Vital Signs Monitoring, Hygiene Assistance, Mobility Support, Documentation, Communication, Team Collaboration, Safety Protocols",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed Certified Nursing Assistant (CNA) program; participated in clinical rotations focusing on geriatrics and medical-surgical care"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3924,14 +4177,16 @@ export const RESUME_TEMPLATES2 = [
                     Skills:
                         "Clinical Consultation, Patient Care Evaluation, Staff Training, Workflow Optimization, Regulatory Compliance, Healthcare Policy, Quality Improvement, Communication",
 
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed courses in healthcare administration and patient care management; participated in internships at local hospitals"
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
 
@@ -3958,14 +4213,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Medication Administration, Vital Signs Monitoring, Clinical Documentation, Patient Education, Team Collaboration, Critical Thinking",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed health sciences courses; participated in healthcare internships and volunteer programs."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -3991,14 +4248,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Staff Management, Clinical Leadership, Budgeting, Quality Improvement, Policy Implementation, Team Training, Patient Care Oversight",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed leadership and healthcare administration courses; participated in hospital management internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4024,14 +4283,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Vital Signs Monitoring, Clinical Documentation, Team Collaboration, Communication Skills, Basic Nursing Procedures",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2019",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed nursing fundamentals courses; participated in healthcare workshops; volunteered in local clinics to gain hands-on experience."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4057,14 +4318,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Assessment, Therapy Plan Development, Rehabilitation Exercises, Cognitive Therapy, Physical Therapy Techniques, Communication, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed healthcare and rehabilitation courses; participated in therapy internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4090,14 +4353,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Assessment, Adaptive Techniques, Therapy Program Implementation, Rehabilitation Exercises, Documentation, Patient Education, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed rehabilitation and therapy training; participated in clinical internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4123,14 +4388,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Assistance, Equipment Preparation, Therapy Support, Documentation, Communication, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed basic healthcare courses; participated in therapy observation programs."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4156,14 +4423,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Chemotherapy Administration, Monitoring Vital Signs, Patient Education, Emotional Support, Team Collaboration, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed nursing and oncology courses; participated in clinical oncology internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4189,14 +4458,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Pediatric Care, Vaccination Administration, Growth Monitoring, Patient Education, Communication, Team Collaboration, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pediatric nursing courses; participated in pediatric care internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4222,14 +4493,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Child Assessment, Therapy Program Design, Motor Skills Development, Daily Living Skills, Patient Education, Communication, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pediatric therapy training; participated in pediatric therapy clinical programs."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4255,14 +4528,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Pediatric Care, Patient Assessment, Medication Administration, Vaccinations, Family Education, Team Collaboration, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pediatric nursing courses; participated in pediatric care internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4288,14 +4563,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Medication Dispensing, Patient Counseling, Inventory Management, Regulatory Compliance, Drug Interaction Checks, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pharmacy assistant and pharmaceutical courses; participated in pharmacy internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4321,14 +4598,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Medication Preparation, Prescription Verification, Inventory Management, Patient Support, Documentation, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pharmacy technician training; participated in pharmacy internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4354,14 +4633,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Medication Preparation, Prescription Verification, Inventory Management, Patient Assistance, Documentation, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pharmacy technician training program; participated in pharmacy internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4387,14 +4668,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Venipuncture, Specimen Collection, Patient Care, Record Keeping, Safety Compliance, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed phlebotomy training program; participated in clinical lab internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4420,14 +4703,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Assessment, Exercise Therapy, Pain Management, Rehabilitation, Treatment Planning, Patient Education",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed physical therapy assistant program; participated in clinical rehabilitation internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4453,14 +4738,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Diagnosis, Treatment Planning, Medical Procedures, Team Collaboration, Patient Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed pre-medical training; participated in medical internships and clinical rotations."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4486,14 +4773,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Clinical Procedures, Patient Care, Diagnostics, Treatment Support, Patient Education, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed physician assistant training program; participated in clinical internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4519,14 +4808,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Medication Administration, Vital Signs Monitoring, Documentation, Healthcare Support, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed practical nursing program; participated in clinical rotations."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4552,14 +4843,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Assessment, Pre-Op Care, Vital Signs Monitoring, Patient Education, Surgical Support, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed nursing pre-op training; participated in clinical rotations."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4585,14 +4878,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Mental Health Assessment, Therapy, Medication Management, Patient Counseling, Treatment Planning, Clinical Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed psychiatric nursing program; participated in clinical mental health rotations."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4618,14 +4913,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Psychological Assessment, Cognitive Behavioral Therapy, Counseling, Patient Communication, Treatment Planning, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed psychology pre-clinical training; participated in counseling internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4651,14 +4948,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Medication Administration, Clinical Assessments, Vital Signs Monitoring, Patient Education, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed nursing clinical rotations; recognized for excellence in patient care."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4684,14 +4983,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Ventilator Management, Oxygen Therapy, Pulmonary Assessment, Emergency Care, Patient Education, Clinical Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed respiratory therapy clinical training; awarded excellence in patient respiratory care."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -4717,14 +5018,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Student Health Management, First Aid, Immunization Tracking, Health Education, Emergency Response, Record Keeping",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed school health clinical program; recognized for excellence in student care."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4750,14 +5053,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Client Assessment, Case Management, Counseling, Crisis Intervention, Community Outreach, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed social work internship; recognized for excellence in community service projects."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4783,14 +5088,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Counseling, Case Management, Advocacy, Client Support, Community Resources, Crisis Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed extensive social work field training; awarded for contributions to client welfare."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4816,14 +5123,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Clinical Procedures, Medication Administration, Vital Signs Monitoring, Team Collaboration, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed nursing clinical rotations; recognized for excellence in patient care."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4849,14 +5158,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Surgical Assistance, Sterile Technique, Instrument Handling, Patient Preparation, Operating Room Safety, Record Keeping",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed surgical technician certification; recognized for excellence in clinical rotations."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4882,14 +5193,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Patient Care, Clinical Flexibility, Adaptability, Critical Thinking, Team Collaboration, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed nursing rotations in multiple departments; recognized for outstanding adaptability."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4915,14 +5228,16 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Animal Care, Diagnosis, Surgery, Vaccination, Client Communication, Treatment Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed veterinary internships; recognized for excellence in animal patient care."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ],
                 }
             },
             {
@@ -4948,14 +5263,15 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Animal Care, Clinical Assistance, Medication Administration, Surgical Support, Record Keeping, Client Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed veterinary assistant internship; recognized for excellence in animal handling and clinical support."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                 }
             },
             {
@@ -4981,14 +5297,15 @@ export const RESUME_TEMPLATES2 = [
                     }],
                     Skills:
                         "Client Communication, Appointment Scheduling, Record Management, Office Organization, Customer Service, Multi-tasking",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; trained in office management and customer service; recognized for exceptional organizational skills."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                 }
             }
 
@@ -5021,13 +5338,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Provide legal counsel to clients, draft legal documents, and represent clients in court proceedings."
                     }],
                     Skills: "Legal Research, Litigation, Client Counseling, Contract Drafting, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced attorney specializing in civil and corporate law with a strong record of client advocacy."
                 }
             },
@@ -5050,13 +5369,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Represent clients in court, prepare legal documents, and negotiate settlements."
                     }],
                     Skills: "Negotiation, Litigation, Legal Drafting, Client Relations, Critical Thinking",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Top 10% of class"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated lawyer with extensive experience in civil and corporate law, adept at legal analysis and courtroom representation."
                 }
             },
@@ -5079,13 +5400,16 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Assist attorneys in preparing cases, organize legal documents, and conduct research."
                     }],
                     Skills: "Legal Research, Document Management, Case Preparation, Communication, Scheduling",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2013",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
                     },
+                    ],
                     Summary: "Organized and detail-oriented legal assistant supporting attorneys in all aspects of case preparation and client management."
                 }
             },
@@ -5108,13 +5432,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Review case files, summarize legal documents, and assist attorneys with trial preparation."
                     }],
                     Skills: "Case Research, Document Review, Summarizing Legal Documents, Filing, Legal Software",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2014",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Efficient legal clerk skilled in organizing case files, conducting research, and assisting attorneys in preparation for court proceedings."
                 }
             },
@@ -5137,13 +5463,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Conduct legal research, draft documents, and assist attorneys in case management."
                     }],
                     Skills: "Legal Research, Document Drafting, Case Management, Communication, Client Interaction",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2010",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional paralegal with extensive experience supporting attorneys in legal research, document drafting, and case management."
                 }
             }
@@ -5175,13 +5503,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Perform construction tasks including site preparation, equipment operation, and general labor to support building projects."
                     }],
                     Skills: "Site Safety, Equipment Operation, Teamwork, Manual Labor, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled construction worker with hands-on experience in site preparation, equipment handling, and team collaboration on building projects."
                 }
             },
@@ -5204,13 +5534,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Assist production teams in coordinating workflows, handling materials, and ensuring product quality meets standards."
                     }],
                     Skills: "Production Coordination, Inventory Management, Quality Control, Communication, Team Support",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2014",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Detail-oriented production assistant supporting efficient manufacturing operations and maintaining quality standards."
                 }
             },
@@ -5233,13 +5565,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Conduct inspections and tests to ensure products meet quality standards and compliance requirements."
                     }],
                     Skills: "Quality Inspection, Compliance, Reporting, Problem Solving, Attention to Detail",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2013",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced QA specialist dedicated to maintaining high standards in product quality and process compliance."
                 }
             }
@@ -5270,13 +5604,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Plan and execute digital marketing campaigns including SEO, social media, and email marketing to increase brand awareness."
                     }],
                     Skills: "SEO, SEM, Content Marketing, Social Media, Analytics, Campaign Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative digital marketer experienced in developing and executing campaigns across multiple online channels to drive engagement and sales."
                 }
             },
@@ -5299,13 +5635,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Coordinate marketing campaigns, create promotional materials, and support marketing team in executing projects."
                     }],
                     Skills: "Campaign Coordination, Content Creation, Event Planning, Communication, Social Media Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2014",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Organized marketing coordinator supporting team efforts to enhance brand visibility and engage target audiences."
                 }
             },
@@ -5328,13 +5666,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Lead marketing strategies, manage campaigns, oversee team, and analyze market trends to optimize performance."
                     }],
                     Skills: "Strategic Planning, Team Leadership, Campaign Management, Market Analysis, Budgeting",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2013",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced marketing manager skilled in developing strategies, leading teams, and delivering measurable results."
                 }
             },
@@ -5357,13 +5697,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Manage social media accounts, create engaging content, and analyze metrics to grow online presence."
                     }],
                     Skills: "Content Creation, Social Media Strategy, Analytics, Community Engagement, Brand Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Results-driven social media manager focused on building brand awareness and fostering community engagement across platforms."
                 }
             },
@@ -5386,13 +5728,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Develop PR campaigns, write press releases, and manage media relations to enhance company reputation."
                     }],
                     Skills: "Media Relations, Press Releases, Communication, Event Planning, Crisis Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2011",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graduated with Honors"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled PR specialist with experience in media relations, campaign management, and corporate communications."
                 }
             },
@@ -5415,13 +5759,16 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Execute marketing strategies, conduct market research, and assist in campaign development to drive sales."
                     }],
                     Skills: "Market Research, Campaign Execution, Digital Marketing, Analytics, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2013",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Dean's List"
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
                     },
+                    ],
                     Summary: "Marketing professional focused on implementing strategies and campaigns to increase brand awareness and sales."
                 }
             },
@@ -5444,13 +5791,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Manage SEO, PPC, email, and social media campaigns to enhance online visibility and engagement."
                     }],
                     Skills: "SEO, PPC, Social Media, Email Marketing, Analytics, Content Marketing",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2012",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Honor Roll"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Digital marketing specialist skilled in online campaign management, analytics, and content creation to drive growth."
                 }
             }
@@ -5481,13 +5830,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Performed in theater and television productions, including lead roles and ensemble work."
                     }],
                     Skills: "Acting, Improvisation, Script Analysis, Stage Presence",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Drama Club President"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Passionate actor with experience in stage and screen productions, known for versatility and commitment to character development."
                 }
             },
@@ -5510,13 +5861,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Lead visual design for advertising campaigns, overseeing creative teams and concept development."
                     }],
                     Skills: "Creative Direction, Visual Design, Branding, Team Leadership",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Art Club Founder"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced art director skilled in conceptualizing and executing compelling visual campaigns across multiple media."
                 }
             },
@@ -5538,13 +5891,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: " "
                     }],
                     Skills: " ",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
-                        Location: "Orlando,  Florida",
-                        academicAchievements: ""
-                    },
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: " "
                 }
             },
@@ -5567,13 +5922,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Edit video content for commercials, online campaigns, and short films using Adobe Premiere Pro and Final Cut Pro."
                     }],
                     Skills: "Video Editing, Storyboarding, Color Grading, Adobe Premiere, Final Cut Pro",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Media Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative video editor with experience in post-production for digital media and film projects."
                 }
             },
@@ -5596,13 +5953,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Edit video content for commercials, online campaigns, and short films using Adobe Premiere Pro and Final Cut Pro."
                     }],
                     Skills: "Video Editing, Storyboarding, Color Grading, Adobe Premiere, Final Cut Pro",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Media Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative video editor with experience in post-production for digital media and film projects."
                 }
             },
@@ -5625,13 +5984,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Write content for blogs, websites, and marketing campaigns. Manage multiple clients and deadlines."
                     }],
                     Skills: "Content Writing, Blogging, SEO, Copywriting, Research",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "School Newspaper Editor"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled freelance writer producing high-quality content for diverse audiences."
                 }
             },
@@ -5654,13 +6015,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Create branding, social media graphics, and print materials for clients in various industries."
                     }],
                     Skills: "Adobe Photoshop, Illustrator, InDesign, Branding, Typography",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Graphic Design Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative graphic designer with a keen eye for aesthetics and strong technical skills in digital and print media."
                 }
             },
@@ -5683,13 +6046,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Design residential and commercial spaces, select materials, and manage client relationships."
                     }],
                     Skills: "Space Planning, AutoCAD, SketchUp, Material Selection, Client Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Art Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative interior designer with experience in residential and commercial projects."
                 }
             },
@@ -5712,13 +6077,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Assisted marketing team with campaign research, social media management, and content creation."
                     }],
                     Skills: "Social Media, Content Creation, Research, Communication, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Marketing Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Motivated intern with hands-on experience in marketing and content creation."
                 }
             },
@@ -5741,13 +6108,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Research, write, and report news stories for print and online publications."
                     }],
                     Skills: "Investigative Reporting, Writing, Interviewing, Research, Editing",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "School Newspaper Editor"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced journalist with strong reporting, writing, and investigative skills."
                 }
             },
@@ -5770,13 +6139,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Participate in photo shoots, fashion shows, and promotional events for clients."
                     }],
                     Skills: "Posing, Runway, Fashion Awareness, Communication, Brand Representation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Drama & Fashion Club"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional model experienced in print and runway assignments with strong brand representation skills."
                 }
             },
@@ -5799,13 +6170,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Captured portraits, events, and commercial photography for clients, managing all post-processing work."
                     }],
                     Skills: "Photography, Photo Editing, Lighting, Composition, Photoshop",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Photography Club Captain"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional photographer specializing in portrait, event, and commercial photography with strong editing skills."
                 }
             },
@@ -5828,13 +6201,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Edit and produce videos for commercials, social media, and short films."
                     }],
                     Skills: "Video Editing, Adobe Premiere Pro, After Effects, Color Grading, Storytelling",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Media Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced video editor with a strong eye for storytelling and post-production techniques."
                 }
             },
@@ -5857,13 +6232,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Write articles, blogs, and marketing content for various clients across industries."
                     }],
                     Skills: "Creative Writing, Editing, SEO, Blogging, Research",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "School Newspaper Editor"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Skilled writer with experience creating engaging content for digital and print media, focused on storytelling and audience engagement."
                 }
             }
@@ -5893,13 +6270,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Provide daily care for children, organize educational activities, prepare meals, and ensure safety."
                     }],
                     Skills: "Childcare, Time Management, Safety, Meal Preparation, Activity Planning",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Volunteer at Children's Programs"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable and caring babysitter with hands-on experience managing children’s daily routines and activities."
                 }
             },
@@ -5922,13 +6301,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Provide beauty treatments including hair, skin, and nail services. Advise clients on style and care."
                     }],
                     Skills: "Hair Styling, Skincare, Makeup, Customer Service, Salon Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Beauty Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced cosmetologist providing professional beauty services and client consultations."
                 }
             },
@@ -5951,13 +6332,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Perform facials, waxing, and skincare treatments while educating clients on skin health."
                     }],
                     Skills: "Facials, Waxing, Skincare, Customer Care, Product Knowledge",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Skincare Club Member"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Passionate esthetician focused on client satisfaction and effective skincare treatments."
                 }
             },
@@ -5980,13 +6363,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Cut, color, and style hair for clients; provide professional consultations and maintain salon hygiene."
                     }],
                     Skills: "Hair Cutting, Coloring, Styling, Consultation, Customer Service",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Hair Styling Workshops"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Creative hair stylist delivering personalized styles and exceptional client experiences."
                 }
             },
@@ -6009,13 +6394,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Apply makeup for events, photoshoots, and weddings; advise clients on looks and techniques."
                     }],
                     Skills: "Makeup Application, Color Matching, Special Effects, Client Consultation, Hygiene",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Makeup Workshops"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional makeup artist skilled in creating stunning and personalized looks for all occasions."
                 }
             },
@@ -6038,13 +6425,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Provide full-time care for children, including educational support, recreational activities, and household assistance."
                     }],
                     Skills: "Childcare, Organization, Educational Activities, Communication, Safety",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Volunteer at Daycare Center"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated nanny with experience in child development, safety, and household management."
                 }
             }
@@ -6075,13 +6464,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Provide emergency medical care and transport patients to medical facilities. Assess patient conditions and administer first aid."
                     }],
                     Skills: "Emergency Care, CPR, Patient Assessment, Ambulance Operation, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Completed EMT Certification Program"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Certified EMT with experience in emergency response and patient care under high-pressure situations."
                 }
             },
@@ -6104,13 +6495,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Respond to fire emergencies, perform rescues, maintain equipment, and educate public on fire safety."
                     }],
                     Skills: "Fire Suppression, Rescue Operations, Safety Training, Physical Fitness, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Fire Safety Training Certified"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Dedicated firefighter committed to protecting lives and property through quick and effective emergency response."
                 }
             },
@@ -6133,13 +6526,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Maintain public safety, enforce laws, conduct investigations, and engage with community members."
                     }],
                     Skills: "Law Enforcement, Investigation, Conflict Resolution, Communication, Public Safety",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Police Academy Graduate"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Professional law enforcement officer with experience in community policing and public safety."
                 }
             },
@@ -6162,13 +6557,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Patrol assigned areas, respond to incidents, investigate crimes, and ensure law compliance."
                     }],
                     Skills: "Patrolling, Investigation, Emergency Response, Community Engagement, Law Enforcement",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Police Academy Graduate"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Experienced police officer skilled in maintaining law and order while building community trust."
                 }
             },
@@ -6191,13 +6588,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Supervise offenders, ensure compliance with probation terms, and assist in rehabilitation programs."
                     }],
                     Skills: "Case Management, Counseling, Law Enforcement, Communication, Documentation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Criminal Justice Courses"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Compassionate probation officer helping individuals reintegrate into society while ensuring compliance with the law."
                 }
             },
@@ -6220,13 +6619,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Monitor premises, control access, respond to incidents, and enforce security protocols."
                     }],
                     Skills: "Surveillance, Access Control, Incident Response, Communication, Safety Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Security Training Certification"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Vigilant security officer ensuring safety and protection of property and personnel."
                 }
             },
@@ -6249,13 +6650,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: "Patrol assigned areas, monitor CCTV, respond to emergencies, and maintain safety procedures."
                     }],
                     Skills: "Patrolling, Emergency Response, CCTV Monitoring, Safety Protocols, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "06/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: "Security Guard Certification"
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: "Reliable security guard focused on maintaining safe environments and quick incident response."
                 }
             }
@@ -6286,13 +6689,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: " "
                     }],
                     Skills: " ",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: " "
                 }
             },
@@ -6315,13 +6720,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: " "
                     }],
                     Skills: " ",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: " "
                 }
             },
@@ -6344,13 +6751,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: " "
                     }],
                     Skills: " ",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: " "
                 }
             },
@@ -6373,13 +6782,15 @@ export const RESUME_TEMPLATES2 = [
                         Description: " "
                     }],
                     Skills: " ",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements: ""
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },],
                     Summary: " "
                 }
             }
@@ -6417,14 +6828,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Client Relationship Management, Sales Strategy, Negotiation, CRM Tools, Lead Generation, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong communication, sales fundamentals, and customer interaction skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-driven Account Executive with experience in managing client portfolios and driving business growth."
                 }
@@ -6450,14 +6862,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Account Management, Client Retention, Relationship Building, Reporting, CRM Software, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened analytical thinking and relationship management capabilities."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented Account Manager skilled in maintaining long-term client relationships and delivering value-driven solutions."
                 }
@@ -6483,14 +6896,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Team Supervision, Operations Management, Customer Service, Inventory Control, Leadership, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Demonstrated leadership potential and operational efficiency through academic and practical learning."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Dependable Assistant Manager with hands-on experience in team leadership and operational support."
                 }
@@ -6518,14 +6932,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Lead Generation, Market Research, Client Acquisition, Sales Strategy, Negotiation, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong business communication and analytical skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Proactive Business Development professional with experience in driving growth through client acquisition and strategic planning."
                 }
@@ -6551,14 +6966,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Support, Inbound & Outbound Calling, Problem Solving, CRM Systems, Communication, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built strong verbal communication and customer handling skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Customer-focused Call Center Agent experienced in delivering high-quality support and issue resolution."
                 }
@@ -6584,14 +7000,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Service, Call Handling, Product Knowledge, Active Listening, CRM Tools, Multitasking",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Improved communication, listening, and customer engagement abilities."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Reliable Call Center Representative with a strong background in customer engagement and support operations."
                 }
@@ -6619,14 +7036,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Cash Handling, POS Systems, Customer Service, Attention to Detail, Time Management, Basic Accounting",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong numerical accuracy and customer interaction skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented Cashier with hands-on experience in fast-paced retail environments and excellent customer service skills."
                 }
@@ -6652,14 +7070,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Support, Communication, Problem Solving, Conflict Resolution, CRM Tools, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened communication and interpersonal skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Customer-focused professional experienced in delivering quality service and building positive customer relationships."
                 }
@@ -6685,14 +7104,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Inbound Support, Customer Communication, CRM Software, Active Listening, Multitasking, Issue Resolution",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Improved professional communication and customer handling abilities."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Reliable Customer Service Representative with experience in handling customer inquiries and delivering consistent support."
                 }
@@ -6720,14 +7140,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Support, CRM Tools, Issue Resolution, Communication Skills, Multitasking, Service Quality Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong communication, customer handling, and problem-solving skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Customer Service Specialist with proven experience in resolving customer issues and delivering high-quality service in fast-paced environments."
                 }
@@ -6753,14 +7174,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Business Management, Strategic Planning, Marketing, Financial Management, Leadership, Client Relations",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built entrepreneurial mindset with strong leadership and decision-making skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-driven Entrepreneur with hands-on experience in business development, operations management, and customer-focused growth strategies."
                 }
@@ -6786,14 +7208,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Leadership, Strategic Planning, Team Management, Business Operations, Decision Making, Performance Analysis",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Demonstrated leadership abilities and strong business acumen."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Experienced Executive with a strong background in leadership, strategic planning, and driving organizational success."
                 }
@@ -6821,14 +7244,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Medical Sales, Client Relationship Management, Product Demonstration, Market Analysis, Negotiation, Sales Strategy",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong communication, persuasion, and business skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-oriented Medical Sales Executive with experience in promoting healthcare products and building long-term relationships with medical professionals."
                 }
@@ -6854,14 +7278,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Pharmaceutical Sales, Territory Management, Product Knowledge, Compliance, Sales Reporting, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened analytical thinking and professional communication skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Experienced Pharmaceutical Sales Representative with a strong track record of achieving targets and expanding market presence."
                 }
@@ -6887,14 +7312,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Real Estate Sales, Property Management, Negotiation, Client Relations, Market Research, Contract Handling",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong negotiation, sales, and customer service abilities."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Licensed Real Estate Agent with proven expertise in property sales, client consultation, and successful deal closures."
                 }
@@ -6922,14 +7348,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Retail Management, Team Leadership, Inventory Control, Sales Strategy, Customer Service, Store Operations",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built strong leadership, organizational, and business management skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Experienced Retail Manager with a strong background in store operations, team leadership, and driving sales growth."
                 }
@@ -6955,14 +7382,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Sales Management, Lead Generation, Client Handling, Negotiation, CRM Tools, Communication Skills",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed persuasive communication and customer engagement skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Goal-driven Sales Professional with proven ability to close deals and build long-term customer relationships."
                 }
@@ -6988,14 +7416,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Service, Product Knowledge, POS Handling, Upselling, Communication, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened interpersonal skills and retail sales knowledge."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Customer-focused Sales Associate with experience in retail sales, upselling, and delivering excellent shopping experiences."
                 }
@@ -7023,14 +7452,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Sales Leadership, Team Management, Revenue Growth, Strategic Planning, CRM, Negotiation, Forecasting",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built a strong foundation in communication, leadership, and business fundamentals."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-driven Sales Manager with proven experience in leading teams, increasing revenue, and delivering consistent business growth."
                 }
@@ -7056,14 +7486,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Direct Sales, Customer Relationship Management, Lead Conversion, Communication, Product Demonstration, Negotiation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong interpersonal and persuasive communication skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Motivated Sales Representative with experience in customer acquisition, relationship building, and achieving sales targets."
                 }
@@ -7089,14 +7520,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Store Operations, Team Supervision, Inventory Management, Customer Satisfaction, Sales Analysis, Staff Training",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened leadership, organization, and customer service expertise."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Dedicated Store Manager with strong experience in retail operations, staff management, and driving sales performance."
                 }
@@ -7124,14 +7556,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Team Supervision, Workflow Management, Problem Solving, Communication, Performance Monitoring, Time Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed leadership, coordination, and operational management skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Experienced Supervisor with a strong ability to lead teams, improve productivity, and ensure smooth daily operations."
                 }
@@ -7157,14 +7590,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Team Leadership, Coaching & Mentoring, Goal Setting, Performance Tracking, Communication, Conflict Resolution",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened leadership, collaboration, and people-management abilities."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Motivated Team Leader with proven experience in guiding teams, meeting targets, and maintaining a positive work environment."
                 }
@@ -7200,14 +7634,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Chemical Analysis, Laboratory Techniques, Quality Control, Safety Compliance, Data Interpretation, Sample Preparation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; participated in science fairs; completed chemistry-focused coursework and lab internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -7233,14 +7669,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Programming, Software Development, Algorithm Design, Data Analysis, Problem Solving, Team Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; participated in coding competitions and technology projects; completed computer science internships."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -7266,14 +7704,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Laboratory Procedures, Sample Preparation, Data Collection, Equipment Maintenance, Safety Compliance",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed lab internships; received recognition for excellence in science coursework."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -7299,14 +7739,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Data Analysis, Experimentation, Literature Review, Documentation, Lab Operations, Research Support",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; assisted in multiple research projects; completed internships in biomedical labs."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -7332,14 +7774,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Research, Experimentation, Data Analysis, Scientific Reporting, Project Management, Collaboration",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; led science projects; published research findings in school journal."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             }
         ]
@@ -7373,14 +7817,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Inventory Management, Shipping & Receiving, Forklift Operation, Safety Compliance, Organization, Teamwork",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; member of vocational training program; completed internship in warehouse operations."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             }
 
@@ -7412,14 +7858,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Data Analysis, MS Excel, SQL Basics, Reporting, Critical Thinking, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors and demonstrated strong analytical and mathematical skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented Analyst with hands-on experience in data analysis, reporting, and supporting business decisions through actionable insights."
                 }
@@ -7445,14 +7892,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Requirement Gathering, Business Analysis, Process Mapping, Stakeholder Communication, Documentation, MS Excel",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed business fundamentals coursework and participated in school-level business analysis projects."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-driven Business Analyst skilled in understanding business needs, analyzing workflows, and translating requirements into practical solutions."
                 }
@@ -7480,14 +7928,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Data Analysis, MS Excel, SQL, Data Visualization, Reporting, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Demonstrated strong analytical skills and completed data-focused academic projects."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented Data Analyst with experience in data cleaning, reporting, and transforming raw data into actionable business insights."
                 }
@@ -7513,14 +7962,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Python, Machine Learning, Statistical Analysis, Data Modeling, SQL, Data Visualization",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed advanced analytical coursework and demonstrated interest in data science and modeling."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Analytical and innovative Data Scientist experienced in machine learning, statistical analysis, and developing data-driven solutions for real-world problems."
                 }
@@ -7548,14 +7998,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "AWS, Docker, Kubernetes, CI/CD, Jenkins, Linux, Git, Monitoring & Automation",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong technical foundations and interest in cloud infrastructure and automation."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-driven DevOps Engineer with experience in cloud infrastructure, automation, and continuous integration to improve system reliability and deployment efficiency."
                 }
@@ -7581,14 +8032,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "HTML, CSS, JavaScript, Angular, React, Responsive Design, UI/UX, Git",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed web development projects demonstrating strong UI and design skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Creative Front End Developer with hands-on experience in building user-friendly, responsive, and visually appealing web applications."
                 }
@@ -7616,14 +8068,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "JavaScript, Angular, HTML, CSS, SQL, System Administration, Troubleshooting, Git",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built multiple software projects and gained strong understanding of IT systems and application development."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Versatile IT professional with experience in software development and IT operations, skilled in building applications while maintaining reliable technical infrastructure."
                 }
@@ -7649,14 +8102,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Technical Support, Hardware & Software Troubleshooting, Windows, Networking Basics, Ticketing Systems",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Recognized for effective problem-solving skills and user support excellence."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented IT Support Specialist with hands-on experience in troubleshooting, user assistance, and maintaining reliable IT systems."
                 }
@@ -7684,14 +8138,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Project Management, Agile & Scrum, Jira, Risk Management, Stakeholder Communication, SDLC",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong leadership, planning, and organizational skills through team-based projects."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Results-driven IT Project Manager with experience delivering complex technology projects on time while aligning business and technical goals."
                 }
@@ -7717,14 +8172,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Java, Spring Boot, Hibernate, REST APIs, SQL, Git, Object-Oriented Programming",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built multiple Java applications and gained strong foundation in object-oriented programming."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented Java Developer with hands-on experience building scalable applications using modern Java frameworks."
                 }
@@ -7750,14 +8206,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Product Strategy, Roadmapping, Agile, User Research, Stakeholder Management, Analytics",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Demonstrated strong analytical thinking and leadership skills through product-based initiatives."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Strategic Product Manager with experience translating business needs into successful digital products that drive user value."
                 }
@@ -7784,14 +8241,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "JavaScript, TypeScript, Angular, HTML, CSS, REST APIs, Git, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Built multiple web-based projects and gained strong fundamentals in programming and application development."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Motivated Software Developer with experience building reliable applications and delivering clean, maintainable code."
                 }
@@ -7817,14 +8275,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Java, Spring Boot, Microservices, SQL, Data Structures, Algorithms, Git",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Strengthened analytical thinking and software engineering principles through practical projects."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Detail-oriented Software Engineer with strong problem-solving skills and experience developing high-quality, scalable systems."
                 }
@@ -7852,14 +8311,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Windows Server, Linux, Active Directory, Networking, Troubleshooting, System Monitoring, Backup & Recovery",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Developed strong IT fundamentals, networking knowledge, and hands-on experience with system maintenance."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Reliable System Administrator with experience in maintaining secure, stable, and high-performing IT infrastructure."
                 }
@@ -7885,14 +8345,15 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Technical Support, Hardware & Software Troubleshooting, Customer Service, Ticketing Systems, Remote Support",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Demonstrated strong problem-solving abilities and customer-focused support skills."
-                    },
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    }, ,],
                     Summary:
                         "Customer-focused Technical Support Specialist skilled in troubleshooting, communication, and delivering efficient IT support."
                 }
@@ -7927,14 +8388,16 @@ export const RESUME_TEMPLATES3 = [
                             "Responsible for transporting goods and passengers safely, maintaining vehicle logs, performing routine maintenance checks, and ensuring compliance with traffic regulations."
                     }],
                     Skills: "Safe Driving, Route Planning, Vehicle Maintenance, Time Management, Customer Service",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed defensive driving courses; participated in local driving safety workshops."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -7959,14 +8422,16 @@ export const RESUME_TEMPLATES3 = [
                             "Provided excellent customer service, conducted safety demonstrations, assisted passengers, handled in-flight emergencies, and ensured compliance with airline safety regulations."
                     }],
                     Skills: "Customer Service, Emergency Procedures, Safety Compliance, Communication, In-flight Service",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed hospitality and safety training programs; participated in public speaking workshops."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -7991,14 +8456,16 @@ export const RESUME_TEMPLATES3 = [
                             "Conducted pre-flight inspections, navigated and operated aircraft safely, communicated with air traffic control, monitored weather conditions, and ensured passenger safety."
                     }],
                     Skills: "Aircraft Operation, Navigation, Flight Planning, Safety Protocols, Communication",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed private and commercial pilot training; certified in aviation safety and navigation."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8023,14 +8490,16 @@ export const RESUME_TEMPLATES3 = [
                             "Transported goods across state lines, ensured cargo safety, maintained vehicle condition, logged hours of service, and complied with federal transportation regulations."
                     }],
                     Skills: "Long-Haul Driving, Route Planning, Vehicle Maintenance, Cargo Handling, Safety Compliance",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed CDL training; attended logistics and transportation workshops."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             }
         ]
@@ -8064,14 +8533,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Event Planning, Budget Management, Vendor Coordination, Communication, Time Management, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; member of student council; led school event planning committee."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8097,14 +8568,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Client Management, Creative Planning, Logistics Coordination, Team Leadership, Budgeting, Scheduling",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Participated in school arts & culture club; completed leadership training program."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8130,14 +8603,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Service, Reception, Booking Management, Communication, Problem Solving, Administrative Support",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Completed internship in hotel management; member of school hospitality club."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             }
         ]
@@ -8173,14 +8648,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Patient Care, Medication Administration, Clinical Documentation, Patient Education, Critical Thinking, Team Collaboration",
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Bachelor of Science in Nursing (BSN)",
-                        GraduationDate: "05/2018",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed clinical rotations in critical care, pediatrics, and emergency medicine; recognized for excellence in patient care."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8206,14 +8683,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Programming (Java, Python, JavaScript), Web Development, Debugging, Version Control (Git), Problem Solving, Team Collaboration",
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Bachelor of Science in Computer Science",
-                        GraduationDate: "05/2021",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Dean’s List; completed internship projects in web and software development; awarded 'Best Coding Project' in senior year."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8239,14 +8718,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Business Analysis, Strategic Planning, Project Management, Client Communication, Data Analysis, Process Improvement",
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Bachelor of Business Administration",
-                        GraduationDate: "05/2019",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed capstone project on business process optimization; recognized for leadership in consulting club."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8272,14 +8753,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Creative Strategy, Team Leadership, Branding, Graphic Design, Visual Communication, Project Management",
-                    Education: {
-                        university: "Florida State University",
-                        FieldOfStudy: "Bachelor of Fine Arts (BFA) in Graphic Design",
-                        GraduationDate: "05/2017",
-                        Location: "Tallahassee, Florida",
-                        academicAchievements:
-                            "Graduated with honors; Dean’s List for 4 consecutive years; led multiple student design projects recognized in national competitions."
-                    }
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
+                        Location: "Orlando, Florida",
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8305,14 +8788,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Service, Food Preparation, Sanitation, Teamwork, Time Management, Inventory Management",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2019",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; participated in school culinary club and community service events; completed food safety certification."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8338,14 +8823,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Time Management, Teamwork, Communication, Leadership, Critical Thinking, Problem Solving",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2021",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Honor Roll for 4 years; member of student council and debate team; completed Advanced Placement courses in Mathematics and Science."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8371,14 +8858,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Network Administration, Troubleshooting, Software Development, Cybersecurity, Technical Support, System Optimization",
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Bachelor of Science in Information Technology",
-                        GraduationDate: "05/2017",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; completed IT certification courses; led student tech projects and hackathons."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8404,14 +8893,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Teamwork, Research, Documentation, Communication, Problem Solving, Adaptability",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Honor Roll; participated in school clubs and volunteer activities; completed career readiness programs."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8437,14 +8928,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Leadership, Mentoring, Project Management, Advanced Troubleshooting, Strategic Planning, Process Improvement",
-                    Education: {
-                        university: "University of Central Florida",
-                        FieldOfStudy: "Bachelor of Science in Information Technology",
-                        GraduationDate: "05/2017",
+                    Education: [{
+                        university: "Concord Charter School",
+                        FieldOfStudy: "High School Diploma",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Graduated with honors; earned leadership awards; completed advanced IT certifications."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             },
             {
@@ -8470,14 +8963,16 @@ export const RESUME_TEMPLATES3 = [
                     }],
                     Skills:
                         "Customer Service, Food Preparation, Time Management, Teamwork, Cleaning & Sanitation, Order Handling",
-                    Education: {
+                    Education: [{
                         university: "Concord Charter School",
                         FieldOfStudy: "High School Diploma",
-                        GraduationDate: "05/2017",
+                        GraduationYear: "",
                         Location: "Orlando, Florida",
-                        academicAchievements:
-                            "Honor Roll; participated in school hospitality club; completed food safety training."
-                    }
+                        academicAchievements: "",
+                        Marks: "",
+                        Projects: []
+                    },
+                    ]
                 }
             }
 

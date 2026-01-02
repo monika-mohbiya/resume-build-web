@@ -7,6 +7,7 @@ import { TEMPLATE_COMPONENT_MAP } from '../../allTemplate';
 import { ResumePreviewComponent } from './resume-preview/resume-preview.component';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import { RouterLink } from "@angular/router";
 
 interface ResumeSection {
   key: string;
@@ -19,7 +20,7 @@ interface ResumeSection {
 @Component({
   selector: 'app-resume-screen',
   standalone: true,
-  imports: [CommonModule, FormsModule, ResumePreviewComponent],
+  imports: [CommonModule, FormsModule, ResumePreviewComponent, RouterLink],
   templateUrl: './resume-screen.component.html',
   styleUrl: './resume-screen.component.scss'
 })

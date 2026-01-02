@@ -79,8 +79,8 @@
         @for(edu of data.education; track edu){
         <div class="edu-block">
             <p><strong>{{edu.degree}}</strong> — {{edu.university}} ({{edu.year}})</p>
-            @if(edu.gpa){
-            <p>GPA: {{edu.gpa}}</p>
+            @if(e.Marks){
+            <p>Marks: {{e.Marks}}</p>
             }
             @if(edu?.projects?.length) {
             <strong>Projects:</strong>

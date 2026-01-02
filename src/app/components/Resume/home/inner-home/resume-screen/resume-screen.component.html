@@ -24,6 +24,7 @@
             </div>
 
             <button class="btn-outline" (click)="openMngSec()">Manage Sections</button>
+            <button class="btn-outline" routerLink="/resume-form">Edit</button>
         </div>
 
         <button class="btn-primary" (click)="exportPDF()">⬇ Download Resume</button>
@@ -77,9 +78,9 @@
             <div class="left-bar" [ngStyle]="{'background': selectedTemplateColor}"></div>
             <div>
                 <h1 [ngStyle]="{'color': selectedTemplateColor}">{{resumeData.name}}</h1>
-                <p>{{ resumeData.section.Contact.Email }} ·
-                    {{ resumeData.section.Contact.Mobile }} ·
-                    {{ resumeData.section.Contact.Address }}</p>
+                <p>{{ latestData.section?.Contact?.Email }} ·
+                    {{ latestData.section?.Contact?.Mobile }} ·
+                    {{ latestData.section?.Contact?.Address }}</p>
             </div>
             <button class="edit-btn" (click)="openDialog(0)">✏️</button>
         </div>
@@ -93,7 +94,7 @@
           @if(isSectionEnabled('skills')){ <section class="resume-section">
             <h2 [ngStyle]="{'color': selectedTemplateColor}">Skills</h2>
             
-            <p>{{ resumeData.section.Skills }}</p>
+            <p>{{latestData.section.Skills }}</p>
             
             <button class="edit-btn section-edit" (click)="openDialog(2)">✏️</button>
         </section> }
@@ -124,9 +125,9 @@
             <h2 [ngStyle]="{'color': selectedTemplateColor}">Education</h2>
            
             <div class="job">
-                <h3>{{ resumeData.section.Education.FieldOfStudy }}</h3>
+                <h3>{{ latestData?.section?.Education.FieldOfStudy }}</h3>
                 <p class="job-meta">
-                    {{ resumeData.section.Education.university }} · {{ resumeData.section.Education.GraduationDate }}
+                    {{ latestData?.section?.Education.university }} · {{ latestData?.section?.Education.GraduationDate }}
                 </p>
             </div>
            

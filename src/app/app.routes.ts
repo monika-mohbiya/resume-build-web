@@ -5,10 +5,11 @@ import { AuthLayoutComponent } from './auth-layout';
 import { LoginComponent } from './components/auth/login/login.component';
 import { canActivateGuard } from './can-activate.guard';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { ResumeFormComponent } from './components/TempResume/resume-builder/resume-form/resume-form.component';
+// import { ResumeFormComponent } from './components/TempResume/resume-builder/resume-form/resume-form.component';
 import { InnerHomeComponent } from './components/Resume/home/inner-home/inner-home.component';
 // import { SampleResumeComponent } from './components/Resume/home/inner-home/sample-resume/sample-resume.component';
 import { TemplateResumeComponent } from './components/Resume/home/inner-home/template-resume/template-resume.component';
+import { ResumeFormComponent } from './components/Resume/home/inner-home/resume-screen/resume-preview/resume-form/resume-form.component';
 // import { ViewAnsSheetComponent } from './components/studentlist/view-ans-sheet/view-ans-sheet.component';
 // import { AnswerKeyComponent } from './components/studentlist/answer-key/answer-key.component';
 
@@ -43,6 +44,7 @@ export const routes: Routes = [
             { path: 'inner-home', component: InnerHomeComponent },
             // { path: 'sample-resume', component: SampleResumeComponent },
             { path: 'template-resume', component: TemplateResumeComponent },
+            { path: 'resume-form', component: ResumeFormComponent }
         ]
     },
 

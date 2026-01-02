@@ -5,13 +5,13 @@
         <!-- HEADER / NAME -->
         <div class="text-center mb-3">
             <h2 class="fw-bold mb-1">
-                {{ resumeData.section.Contact.Name }}
+                {{latestData.section.Contact.Name }}
             </h2>
 
             <p class="small text-muted mb-0">
-                {{ resumeData.section.Contact.Email }} &nbsp; | &nbsp;
-                {{ resumeData.section.Contact.Mobile }} &nbsp; | &nbsp;
-                {{ resumeData.section.Contact.Address }}
+                {{ latestData.section?.Contact?.Email }} &nbsp; | &nbsp;
+                {{ latestData.section?.Contact?.Mobile }} &nbsp; | &nbsp;
+                {{ latestData.section?.Contact?.Address }}
             </p>
         </div>
 
@@ -19,7 +19,7 @@
         @if (isSectionEnabled('summary')) {
         <div class="mb-3">
             <p class="small">
-                {{ resumeData.section.Summary }}
+                {{latestData.section.Summary }}
             </p>
         </div>
 
@@ -30,18 +30,18 @@
         <div class="mb-3">
             <p class="fw-bold text-uppercase mb-2" [ngStyle]="{'color': selectColor}">Skills</p>
             <p class="small mb-0">
-                {{resumeData.section.Skills}}
+                {{latestData.section.Skills}}
             </p>
         </div>
         <hr class="my-3">
         }
         <!-- EXPERIENCE -->
         @if (isSectionEnabled('experience')) {
-        @if(resumeData?.section?.Experience?.length){
+        @if(latestData?.section?.Experience?.length){
         <div class="mb-3">
             <h6 class="fw-bold text-uppercase mb-2" [ngStyle]="{'color': selectColor}">Experience</h6>
 
-            @for(job of resumeData.section.Experience;track job){
+            @for(job of latestData.section.Experience;track job){
             <div class="mb-3">
                 <div class="d-flex justify-content-between flex-column">
                     <h4 class="fw-semibold small mb-0">{{ job.RoleAndJobTitle }}</h4>
@@ -70,14 +70,14 @@
             <h6 class="fw-bold text-uppercase mb-1">Education</h6>
 
             <h4 class="fw-semibold mb-0">
-                {{ resumeData.section.Education.Degree }}
+                {{ latestData?.section?.Education.Degree }}
             </h4>
             <p class="small text-muted mb-0">
-                {{ resumeData.section.Education.College }},
-                {{ resumeData.section.Education.Location }}
+                {{ latestData?.section?.Education.College }},
+                {{ latestData?.section?.Education.Location }}
             </p>
             <p class="small text-muted">
-                {{ resumeData.section.Education.Year }}
+                {{ latestData?.section?.Education.Year }}
             </p>
         </div>
         <hr />
