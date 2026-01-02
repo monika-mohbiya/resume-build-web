@@ -1,6 +1,6 @@
 <div class="resume-preview-card" #resumeRoot>
 
-    @if (selectedComponent && resumeData) {
+    <!-- @if (selectedComponent && resumeData) { -->
     <ng-container [ngComponentOutlet]="selectedComponent" [ngComponentOutletInputs]="{
         resumeData: resumeData,
         templateKey: resumeData.templateKey,
@@ -8,9 +8,9 @@
         sections: sections
       }">
     </ng-container>
-    } @else {
+    <!-- } @else {
     <p>⚠️ Preview data missing</p>
-    }
+    } -->
 
     <!-- CUSTOM / EXTRA SECTIONS -->
     <div class="resume-extra-sections">

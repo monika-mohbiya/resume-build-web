@@ -80,7 +80,7 @@ export class ResumeFormComponent {
   // };
 
   // resumeData: any = null;
-  resumeLocalStg: any = localStorage.getItem('Resume Data');
+  resumeLocalStg: any = localStorage.getItem('Currrent Person Resume Data');
   resumeData: any = JSON.parse(this.resumeLocalStg);
   router = inject(Router);
   profilePreview: string | null = null;
@@ -351,7 +351,7 @@ export class ResumeFormComponent {
     console.log("FINAL FORM DATA:", this.resumeForm.value);
     if (this.resumeForm.valid) {
       // Get the old value from localStorage
-      const oldValueRaw = localStorage.getItem('Resume Data');
+      const oldValueRaw = localStorage.getItem('Currrent Person Resume Data');
       const oldValue = oldValueRaw ? JSON.parse(oldValueRaw) : null;
 
 
@@ -365,7 +365,7 @@ export class ResumeFormComponent {
         console.log('⚠️ Values are same. No update needed.');
       } else {
         // If there's any difference: missing key, extra key, value change
-        localStorage.setItem('Resume Data', JSON.stringify(this.resumeForm.value));
+        localStorage.setItem('Currrent Person Resume Data', JSON.stringify(this.resumeForm.value));
         this.router.navigateByUrl('/dashboard');
         console.log('✅ Values were different. LocalStorage updated.');
       }

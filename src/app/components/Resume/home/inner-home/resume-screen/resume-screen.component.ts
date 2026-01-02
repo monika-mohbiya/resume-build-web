@@ -58,13 +58,13 @@ export class ResumeScreenComponent {
   ngOnInit() {
     this.resumeData = history.state.resumeData;
     console.log(this.resumeData);
-    // console.log('templateKey:', this.resumeData?.templateKey);
+
     if (this.resumeData?.templateKey) {
       this.selectedComponent =
         TEMPLATE_COMPONENT_MAP[this.resumeData.templateKey];
     }
 
-    // console.log(this.resumeData, this.selectedComponent);
+
   }
 
 

@@ -175,7 +175,7 @@ export class ResumeBuilderComponent {
   openImage(data: any) {
     this.service.show();
 
-    const rdata: any = localStorage.getItem('Resume Data');
+    const rdata: any = localStorage.getItem('Currrent Person Resume Data');
     this.resumeData = rdata ? JSON.parse(rdata) : null;
 
     this.dialogRef = this.dialog.open(this.imgPopupTemplate, {

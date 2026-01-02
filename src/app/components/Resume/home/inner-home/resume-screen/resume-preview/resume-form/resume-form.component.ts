@@ -31,7 +31,7 @@ export class ResumeFormComponent implements OnInit {
   profilePreview: string | null = null;
   selectedFile: File | null = null;
 
-  resumeLocalStg: any = localStorage.getItem('Resume Data');
+  resumeLocalStg: any = localStorage.getItem('Currrent Person Resume Data');
   resumeDataPars: any = JSON.parse(this.resumeLocalStg);
   resumeDataVar: any = this.resumeDataPars;
 
@@ -422,7 +422,7 @@ export class ResumeFormComponent implements OnInit {
     console.log("FINAL FORM DATA:", this.resumeForm.value);
     if (this.resumeForm.valid) {
       // Get the old value from localStorage
-      const oldValueRaw = localStorage.getItem('Resume Data');
+      const oldValueRaw = localStorage.getItem('Currrent Person Resume Data');
       const oldValue = oldValueRaw ? JSON.parse(oldValueRaw) : null;
 
 
@@ -474,7 +474,7 @@ export class ResumeFormComponent implements OnInit {
         };
 
 
-        localStorage.setItem('Resume Data', JSON.stringify(formattedResumeData));
+        localStorage.setItem('Currrent Person Resume Data', JSON.stringify(formattedResumeData));
         this.router.navigateByUrl('/inner-home');
         console.log('✅ Values were different. LocalStorage updated.');
       }

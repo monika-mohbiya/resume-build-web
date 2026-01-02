@@ -23,7 +23,7 @@ export class AdministrativeAssistantComponent {
     console.log(this.resumeData);
     // this.latestData = this.resumeData;
 
-    const oldValueRaw = localStorage.getItem('Resume Data');
+    const oldValueRaw = localStorage.getItem('Currrent Person Resume Data');
     if (oldValueRaw) {
       this.latestData = oldValueRaw ? JSON.parse(oldValueRaw) : this.resumeData;
       console.log(JSON.parse(oldValueRaw))

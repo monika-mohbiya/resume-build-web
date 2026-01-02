@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href=/resume-builder/ && npx gh-pages -d dist/resume-builder"
+    "deploy": "ng build --configuration production --base-href=/resume-builder-web/ && npx gh-pages -d dist/resume-builder-web"
   },
   "private": true,
   "dependencies": {

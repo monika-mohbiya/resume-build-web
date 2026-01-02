@@ -176,13 +176,13 @@ export class InnerHomeComponent {
 
   navRouter(data: any) {
     console.log(data)
-    const rdata: any = localStorage.getItem('Selected ResumeData');
-    this.resumedata = rdata ? JSON.parse(rdata) : data;
+    // const rdata: any = localStorage.getItem('Selected ResumeData');
+    // this.resumedata = rdata ? JSON.parse(rdata) : data;
     // this.router.navigateByUrl('/template-resume');
 
     this.router.navigateByUrl('/template-resume', {
       state: {
-        resumeData: this.resumedata
+        resumeData: data
       }
     });
 

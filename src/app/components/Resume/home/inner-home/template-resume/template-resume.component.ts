@@ -13,6 +13,8 @@ export class TemplateResumeComponent {
 
   ngOnInit() {
     this.resumeData = history.state.resumeData;
+    console.log(this.resumeData);
+
   }
 
 }
